@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ruff prüfen",
+      "type": "shell",
+      "command": "uv run ruff check .",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Ruff automatisch korrigieren",
+      "type": "shell",
+      "command": "uv run ruff check . --fix",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Tests ausführen",
+      "type": "shell",
+      "command": "uv run pytest",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
