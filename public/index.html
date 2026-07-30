@@ -86,6 +86,224 @@
       }
     }
   </style>
+
+  <style>
+    .contributors-section {
+      padding: 8px 0 88px;
+      border-top: 1px solid var(--line);
+      background:
+        linear-gradient(rgba(8, 8, 7, 0.97), rgba(8, 8, 7, 0.99)),
+        radial-gradient(circle at 84% 18%, rgba(163, 39, 25, 0.12), transparent 26rem);
+    }
+
+    .contributors-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 24px;
+      margin-bottom: 18px;
+    }
+
+    .contributors-heading h2 {
+      margin: 0;
+      color: var(--paper-strong);
+      font: 2.42rem Impact, "Arial Narrow", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .contributors-intro {
+      max-width: 700px;
+      margin: 0;
+      color: var(--paper-muted);
+      font: 1rem/1.65 Georgia, serif;
+    }
+
+    .contributors-note {
+      margin: 0 0 28px;
+      padding: 14px 18px;
+      border: 1px solid rgba(184, 154, 93, 0.18);
+      background: rgba(18, 16, 13, 0.8);
+      color: var(--muted);
+      font: 0.92rem/1.65 Georgia, serif;
+    }
+
+    .contributors-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .contributor-card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(145deg, rgba(27, 25, 21, 0.98), rgba(11, 11, 9, 0.99));
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+      overflow: hidden;
+    }
+
+    .contributor-portrait-wrap {
+      min-height: 270px;
+      display: flex;
+      align-items: end;
+      justify-content: center;
+      padding: 24px 24px 0;
+      background:
+        radial-gradient(circle at 50% 12%, rgba(184, 154, 93, 0.13), transparent 45%),
+        linear-gradient(180deg, rgba(10, 10, 9, 0.72), rgba(10, 10, 9, 0.04));
+    }
+
+    .contributor-portrait {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: 260px;
+      object-fit: contain;
+      object-position: center bottom;
+      filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.48));
+    }
+
+    .contributor-card-copy {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 20px 22px 24px;
+    }
+
+    .contributor-role {
+      margin: 0 0 10px;
+      color: var(--red-bright);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .contributor-card h3 {
+      margin: 0 0 11px;
+      color: var(--paper-strong);
+      font: 1.28rem "Arial Narrow", Arial, sans-serif;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .contributor-card p {
+      margin: 0;
+      color: var(--muted);
+      font: 0.98rem/1.62 Georgia, serif;
+    }
+
+    .contributor-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      width: fit-content;
+      margin-top: 18px;
+      padding-bottom: 3px;
+      color: var(--paper-strong);
+      text-decoration: none;
+      border-bottom: 1px solid var(--red-bright);
+    }
+
+    .contributor-link::after {
+      content: "↗";
+      font-size: 0.85rem;
+    }
+
+    .contributor-card-srf {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      align-items: center;
+      gap: 18px;
+    }
+
+    .contributor-card-srf .contributor-portrait-wrap {
+      min-height: 214px;
+      padding: 18px 18px 0 20px;
+    }
+
+    .contributor-card-srf .contributor-portrait {
+      height: 178px;
+      object-position: left bottom;
+    }
+
+    .contributor-card-srf .contributor-card-copy {
+      padding-right: 26px;
+    }
+
+    .contributor-card-srf .contributor-role {
+      margin-bottom: 8px;
+    }
+
+    .contributor-card-srf h3 {
+      margin-bottom: 10px;
+    }
+
+    .contributor-card-srf p {
+      max-width: 900px;
+    }
+
+    @media (max-width: 1280px) {
+      .contributors-heading {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .contributors-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 900px) {
+      .contributor-card-srf {
+        grid-template-columns: 1fr;
+      }
+
+      .contributor-card-srf .contributor-portrait-wrap {
+        min-height: 190px;
+      }
+
+      .contributor-card-srf .contributor-portrait {
+        height: 160px;
+        object-position: center bottom;
+      }
+
+      .contributor-card-srf .contributor-card-copy {
+        padding-top: 16px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .contributors-section {
+        padding: 6px 0 64px;
+      }
+
+      .contributors-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contributors-heading h2 {
+        font-size: 2rem;
+      }
+
+      .contributors-note {
+        font-size: 0.86rem;
+      }
+
+      .contributor-portrait-wrap {
+        min-height: 232px;
+      }
+
+      .contributor-portrait {
+        height: 222px;
+      }
+    }
+  </style>
+
 </head>
 <body>
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -298,6 +516,97 @@
         </div>
       </div>
     </section>
+
+    <section class="contributors-section" aria-label="Stimmen und Schöpfer">
+      <div class="shell">
+        <div class="contributors-heading">
+          <div>
+            <p class="eyebrow">Mitwirkende</p>
+            <h2>Stimmen und Schöpfer</h2>
+          </div>
+          <p class="contributors-intro">
+            Die Menschen und die Redaktion hinter den haarsträubenden Fällen des Philip Maloney.
+          </p>
+        </div>
+
+        <p class="contributors-note">
+          Künstlerische Porträtdarstellungen; keine offiziellen Fotografien. Diese unabhängige Würdigung steht in keiner Verbindung zu den dargestellten Personen oder zu SRF und bedeutet keine Unterstützung oder Freigabe dieses Fanprojekts.
+        </p>
+
+        <div class="contributors-grid">
+          <article class="contributor-card">
+            <div class="contributor-portrait-wrap">
+              <img class="contributor-portrait" src="people/roger-graf.png" alt="Künstlerisches Porträt von Roger Graf" loading="lazy">
+            </div>
+            <div class="contributor-card-copy">
+              <p class="contributor-role">Autor und Schöpfer</p>
+              <h3>Roger Graf</h3>
+              <p>
+                Roger Graf erfand Philip Maloney und prägte die Hörspielserie über Jahrzehnte als Autor und Produzent. Sein Tonfall, sein Humor und seine Figuren haben den Charakter der Reihe entscheidend geprägt.
+              </p>
+              <a class="contributor-link" href="https://www.rogergraf.ch/" target="_blank" rel="noopener noreferrer">Mehr erfahren</a>
+            </div>
+          </article>
+
+          <article class="contributor-card">
+            <div class="contributor-portrait-wrap">
+              <img class="contributor-portrait" src="people/michael-schacht.png" alt="Künstlerisches Porträt von Michael Schacht" loading="lazy">
+            </div>
+            <div class="contributor-card-copy">
+              <p class="contributor-role">Philip Maloney</p>
+              <h3>Michael Schacht</h3>
+              <p>
+                Michael Schacht war über viele Jahre die markante Stimme von Philip Maloney. Mit seiner trockenen, ruhigen Sprechweise machte er den eigensinnigen Privatdetektiv unverwechselbar.
+              </p>
+              <a class="contributor-link" href="https://www.srf.ch/sendungen/hoerspiel/zum-tod-von-michael-schacht-so-viel-mehr-als-nur-maloney" target="_blank" rel="noopener noreferrer">Mehr erfahren</a>
+            </div>
+          </article>
+
+          <article class="contributor-card">
+            <div class="contributor-portrait-wrap">
+              <img class="contributor-portrait" src="people/jodoc-seidel.png" alt="Künstlerisches Porträt von Jodoc Seidel" loading="lazy">
+            </div>
+            <div class="contributor-card-copy">
+              <p class="contributor-role">Der Polizist</p>
+              <h3>Jodoc Seidel</h3>
+              <p>
+                Jodoc Seidel sprach den wiederkehrenden Polizisten und gehört damit zu den vertrauten Stimmen der Serie. Seine Auftritte setzen einen wunderbar eigensinnigen Gegenpol zu Maloneys Gelassenheit.
+              </p>
+              <a class="contributor-link" href="https://www.srf.ch/audio/maloney/zerstoertes-glueck?id=AUDI20260426_NR_0001" target="_blank" rel="noopener noreferrer">Mehr erfahren</a>
+            </div>
+          </article>
+
+          <article class="contributor-card">
+            <div class="contributor-portrait-wrap">
+              <img class="contributor-portrait" src="people/peter-schneider.png" alt="Künstlerisches Porträt von Peter Schneider" loading="lazy">
+            </div>
+            <div class="contributor-card-copy">
+              <p class="contributor-role">Erzählstimme</p>
+              <h3>Peter Schneider</h3>
+              <p>
+                Peter Schneider führte als Erzählstimme durch die Fälle und verlieh den Episoden zusätzliche Atmosphäre. Seine markante Stimme ist ein fester Teil der besonderen Maloney-Klangwelt.
+              </p>
+              <a class="contributor-link" href="https://www.schauspielhaus.ch/de/personen/32328/peter-schneider" target="_blank" rel="noopener noreferrer">Mehr erfahren</a>
+            </div>
+          </article>
+        </div>
+
+        <article class="contributor-card contributor-card-srf">
+          <div class="contributor-portrait-wrap">
+            <img class="contributor-portrait" src="people/srf.png" alt="Künstlerische Mikrofonillustration für SRF" loading="lazy">
+          </div>
+          <div class="contributor-card-copy">
+            <p class="contributor-role">Originalproduktion</p>
+            <h3>Schweizer Radio und Fernsehen (SRF)</h3>
+            <p>
+              SRF ist die ursprüngliche Heimat von Maloney und die Quelle der öffentlich erreichbaren Audioseiten, auf die dieser Feed verweist. Dieser Feed bleibt bewusst eigenständig, verlinkt ausschließlich auf SRF-Ressourcen und speichert keine Audiodateien dauerhaft selbst.
+            </p>
+            <a class="contributor-link" href="https://www.srf.ch" target="_blank" rel="noopener noreferrer">Mehr erfahren</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
   </main>
 
   <footer class="case-footer">
