@@ -61,3 +61,19 @@ def test_strong_mobile_scroll_reset_is_preserved() -> None:
     assert "requestAnimationFrame(forcePageTop)" in javascript
     assert 'window.addEventListener("pageshow", schedulePageTopReset)' in javascript
     assert "schedulePageTopReset();" in javascript
+
+
+def test_header_contains_only_the_brand() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+
+    header = html.split('<header class="site-header">', maxsplit=1)[1].split(
+        "</header>",
+        maxsplit=1,
+    )[0]
+
+    assert '<a class="brand"' in header
+    assert "<nav" not in header
+    assert "Über den Feed" not in header
+    assert ">Episoden<" not in header
+    assert ">Abonnieren<" not in header
+    assert ">GitHub<" not in header
