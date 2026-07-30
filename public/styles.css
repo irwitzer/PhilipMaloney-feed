@@ -516,10 +516,12 @@ a {
 
 .step-icon-image {
   display: block;
-  width: 82px;
-  height: 82px;
-  margin-inline: auto;
+  width: 110px;
+  height: 110px;
+  margin: -7px auto -2px;
   object-fit: contain;
+  transform: scale(1.75);
+  transform-origin: center;
   filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.55));
 }
 
