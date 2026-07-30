@@ -193,15 +193,24 @@ def test_both_subscribe_buttons_copy_the_feed_url() -> None:
 def test_footer_uses_png_artwork_and_legal_notice() -> None:
     html = (PUBLIC / "index.html").read_text(encoding="utf-8")
 
-    assert (PUBLIC / "footer-detective.png").is_file()
+    assert (PUBLIC / "footer-maloney.png").is_file()
     assert (PUBLIC / "footer-city.png").is_file()
-    assert 'src="footer-detective.png"' in html
+    assert 'src="footer-maloney.png"' in html
     assert 'src="footer-city.png"' in html
     assert "Audiodateien werden nicht zwischengespeichert" in html
     assert "nicht mehr öffentlich" in html
-    assert "Inoffizielles Fanprojekt · Keine Verbindung zu SRF" in html
+    assert "Inoffizielles Fanprojekt · Keine Verbindung zu SRF · Non-commercial" in html
 
 
+
+
+
+def test_episode_cards_use_detective_marker_art() -> None:
+    javascript = (PUBLIC / "app.js").read_text(encoding="utf-8")
+
+    assert (PUBLIC / "episode-detective.png").is_file()
+    assert 'const EPISODE_MARKER_URL = "episode-detective.png";' in javascript
+    assert 'class="episode-card-marker"' in javascript
 
 def test_external_links_and_episode_links_open_in_new_tabs() -> None:
     html = (PUBLIC / "index.html").read_text(encoding="utf-8")

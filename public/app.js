@@ -23,6 +23,7 @@ window.addEventListener("pageshow", schedulePageTopReset);
 const FEED_URL = "feed.xml";
 const PUBLIC_FEED_URL =
   "https://irwitzer.github.io/PhilipMaloney-feed/feed.xml";
+const EPISODE_MARKER_URL = "episode-detective.png";
 
 const escapeHtml = (value) =>
   value.replace(
@@ -89,6 +90,7 @@ const renderEpisodes = (items) => {
       <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
         Fall öffnen${duration ? ` · ${escapeHtml(formatDuration(duration))}` : ""}
       </a>
+      <img class="episode-card-marker" src="${EPISODE_MARKER_URL}" alt="" aria-hidden="true" loading="lazy">
     `;
 
     container.append(article);
