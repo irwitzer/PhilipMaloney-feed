@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   color-scheme: dark;
   --ink: #080706;
   --panel: #12110e;
@@ -511,6 +511,15 @@ a {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+  filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.55));
+}
+
+.step-icon-image {
+  display: block;
+  width: 82px;
+  height: 82px;
+  margin-inline: auto;
+  object-fit: contain;
   filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.55));
 }
 

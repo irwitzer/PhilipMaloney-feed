@@ -1,4 +1,4 @@
-﻿"""Tests für getrennte Desktop- und Mobil-Hero-Assets."""
+"""Tests für getrennte Desktop- und Mobil-Hero-Assets."""
 
 from pathlib import Path
 
@@ -140,3 +140,12 @@ def test_feature_card_text_is_valid_utf8() -> None:
         "â€”",
     )
     assert not any(marker in html for marker in broken_markers)
+
+
+def test_how_section_uses_png_icons() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    assert "<h2>So geht das!</h2>" in html
+    assert "06_SoGehtDas_1.png" in html
+    assert "07_SoGehtDas_2.png" in html
+    assert "08_SoGehtDas_3.png" in html
+    assert html.count('class="step-icon step-icon-image"') == 3
