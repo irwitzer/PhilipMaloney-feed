@@ -129,9 +129,22 @@ const loadFeed = async () => {
   }
 };
 
-const copyFeedUrl = async () => {
-  const status = document.querySelector("#copy-status");
+let copyStatusTimer;
 
+const showCopyStatus = (status, message) => {
+  if (!status) {
+    return;
+  }
+
+  window.clearTimeout(copyStatusTimer);
+  status.textContent = message;
+
+  copyStatusTimer = window.setTimeout(() => {
+    status.textContent = "";
+  }, 4000);
+};
+
+const copyFeedUrl = async (status, message) => {
   try {
     await navigator.clipboard.writeText(PUBLIC_FEED_URL);
   } catch {
@@ -146,24 +159,39 @@ const copyFeedUrl = async () => {
     textArea.remove();
   }
 
-  status.textContent = "Feed-URL wurde kopiert.";
-
-  window.setTimeout(() => {
-    status.textContent = "";
-  }, 3000);
+  showCopyStatus(status, message);
 };
 
 document
   .querySelector("#copy-feed")
-  ?.addEventListener("click", copyFeedUrl);
+  ?.addEventListener("click", async () => {
+    await copyFeedUrl(
+      document.querySelector("#copy-status"),
+      "Feed-URL wurde kopiert.",
+    );
+  });
+
+const subscribeMessage =
+  "Feed-URL kopiert. Füge sie jetzt in deine Podcast-App ein.";
 
 document
   .querySelector("#subscribe-button")
   ?.addEventListener("click", async (event) => {
     event.preventDefault();
-    await copyFeedUrl();
-    document.querySelector("#copy-status").textContent =
-      "Feed-URL kopiert. Füge sie jetzt in deine Podcast-App ein.";
+    await copyFeedUrl(
+      document.querySelector("#copy-status"),
+      subscribeMessage,
+    );
+  });
+
+document
+  .querySelector("#subscribe-button-secondary")
+  ?.addEventListener("click", async (event) => {
+    event.preventDefault();
+    await copyFeedUrl(
+      document.querySelector("#secondary-copy-status"),
+      subscribeMessage,
+    );
   });
 
 loadFeed();

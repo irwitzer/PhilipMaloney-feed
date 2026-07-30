@@ -57,7 +57,7 @@
           </div>
 
           <div class="hero-actions" id="abonnieren">
-            <a class="button button-primary" id="subscribe-button" href="feed.xml">
+            <a class="button button-primary" id="subscribe-button" href="#">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M5 18.5h.01M5 12a7 7 0 0 1 7 7M5 6a13 13 0 0 1 13 13"/>
               </svg>
@@ -191,17 +191,26 @@
             <p class="eyebrow">Neu im Feed</p>
             <h2>Aktuelle Fälle</h2>
           </div>
-          <a
-            class="button button-primary"
-            href="feed.xml"
-            aria-label="Philip Maloney Feed abonnieren"
-            style="min-height: 42px; width: auto; padding: 0 15px; font-size: 0.74rem;"
-          >
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M5 18.5h.01M5 12a7 7 0 0 1 7 7M5 6a13 13 0 0 1 13 13"/>
-            </svg>
-            Abonnieren
-          </a>
+          <div style="display: grid; justify-items: end; gap: 6px;">
+            <a
+              class="button button-primary"
+              id="subscribe-button-secondary"
+              href="#"
+              aria-label="Philip Maloney Feed abonnieren"
+              style="min-height: 42px; width: auto; padding: 0 15px; font-size: 0.74rem;"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 18.5h.01M5 12a7 7 0 0 1 7 7M5 6a13 13 0 0 1 13 13"/>
+              </svg>
+              Abonnieren
+            </a>
+            <p
+              class="copy-status"
+              id="secondary-copy-status"
+              aria-live="polite"
+              style="margin: 0; text-align: right;"
+            ></p>
+          </div>
         </div>
 
         <div class="episode-grid" id="latest-episodes" aria-live="polite">

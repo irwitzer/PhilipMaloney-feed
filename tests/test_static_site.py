@@ -149,3 +149,23 @@ def test_how_section_uses_png_icons() -> None:
     assert "07_SoGehtDas_2.png" in html
     assert "08_SoGehtDas_3.png" in html
     assert html.count('class="step-icon step-icon-image"') == 3
+
+
+def test_both_subscribe_buttons_copy_the_feed_url() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    javascript = (PUBLIC / "app.js").read_text(encoding="utf-8")
+
+    assert 'id="subscribe-button"' in html
+    assert 'id="subscribe-button-secondary"' in html
+    assert 'id="copy-status"' in html
+    assert 'id="secondary-copy-status"' in html
+    assert html.count('href="#"') == 2
+
+    assert 'querySelector("#subscribe-button")' in javascript
+    assert 'querySelector("#subscribe-button-secondary")' in javascript
+    assert "event.preventDefault()" in javascript
+    assert "navigator.clipboard.writeText(PUBLIC_FEED_URL)" in javascript
+    assert (
+        "Feed-URL kopiert. Füge sie jetzt in deine Podcast-App ein."
+        in javascript
+    )
