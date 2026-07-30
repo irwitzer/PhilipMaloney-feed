@@ -6,6 +6,12 @@ from xml.etree import ElementTree as ET
 from maloney_feed.feed import ATOM_NAMESPACE, ITUNES_NAMESPACE, build_feed
 from maloney_feed.models import Episode
 
+EPISODE_IMAGE_URLS = tuple(
+    f"https://irwitzer.github.io/PhilipMaloney-feed/"
+    f"episode-images/{number:02d}_Episodenbilder.png"
+    for number in range(1, 12)
+)
+
 
 def make_episode(
     *,
@@ -37,6 +43,7 @@ def build_sample_feed(episodes: list[Episode], *, now: datetime) -> str:
             "https://irwitzer.github.io/"
             "PhilipMaloney-feed/podcast-cover.png"
         ),
+        episode_image_urls=EPISODE_IMAGE_URLS,
         now=now,
     )
 
@@ -162,3 +169,45 @@ def test_duplicate_episode_id_is_written_only_once() -> None:
 
     assert len(items) == 1
     assert items[0].findtext("title") == "Aktuelle Variante"
+
+
+def test_episode_images_rotate_in_feed_order() -> None:
+    now = datetime(2026, 7, 27, tzinfo=UTC)
+    episodes = [
+        make_episode(
+            episode_id=f"EPISODE-{number:02d}",
+            title=f"Folge {number}",
+            published_at=now - timedelta(days=number),
+        )
+        for number in range(13)
+    ]
+
+    root = ET.fromstring(build_sample_feed(episodes, now=now))
+    items = root.findall("./channel/item")
+    image_urls = [
+        item.find(f"{{{ITUNES_NAMESPACE}}}image").attrib["href"]
+        for item in items
+    ]
+
+    assert image_urls[:11] == list(EPISODE_IMAGE_URLS)
+    assert image_urls[11:] == list(EPISODE_IMAGE_URLS[:2])
+
+
+def test_feed_contains_no_srf_image_urls() -> None:
+    now = datetime(2026, 7, 27, tzinfo=UTC)
+    episode = make_episode(
+        episode_id="NO-SRF-IMAGE",
+        title="Eigene Illustration",
+        published_at=now - timedelta(days=1),
+    )
+
+    root = ET.fromstring(build_sample_feed([episode], now=now))
+    image_elements = root.findall(f".//{{{ITUNES_NAMESPACE}}}image")
+    image_urls = [element.attrib["href"] for element in image_elements]
+
+    assert image_urls
+    assert all(
+        url.startswith("https://irwitzer.github.io/PhilipMaloney-feed/")
+        for url in image_urls
+    )
+    assert all("srf.ch" not in url.lower() for url in image_urls)

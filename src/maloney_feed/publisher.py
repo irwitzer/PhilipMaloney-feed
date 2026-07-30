@@ -6,7 +6,7 @@ from tempfile import NamedTemporaryFile
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
-from maloney_feed.feed import build_feed
+from maloney_feed.feed import ITUNES_NAMESPACE, build_feed
 from maloney_feed.models import Episode
 from maloney_feed.pipeline import PipelineResult
 
@@ -20,6 +20,7 @@ class FeedSettings:
     feed_url: str
     site_url: str
     image_url: str
+    episode_image_urls: tuple[str, ...] = ()
     title: str = "Philip Maloney – inoffizieller RSS-Feed"
     description: str = (
         "Inoffizieller Podcast-Feed für aktuell bei SRF verfügbare "
@@ -42,11 +43,21 @@ def _is_https_url(value: str) -> bool:
     return parsed.scheme == "https" and bool(parsed.netloc)
 
 
+def _itunes_tag(name: str) -> str:
+    return f"{{{ITUNES_NAMESPACE}}}{name}"
+
+
 def validate_settings(settings: FeedSettings) -> None:
     for field_name in ("feed_url", "site_url", "image_url"):
         if not _is_https_url(getattr(settings, field_name)):
             raise FeedValidationError(
                 f"{field_name} muss eine vollständige HTTPS-URL sein."
+            )
+
+    for image_url in settings.episode_image_urls:
+        if not _is_https_url(image_url):
+            raise FeedValidationError(
+                "Jede episode_image_url muss eine vollständige HTTPS-URL sein."
             )
 
 
@@ -71,6 +82,12 @@ def validate_feed_xml(
         if not (channel.findtext(tag) or "").strip():
             raise FeedValidationError(f"Ungültiges channel-Feld: {tag}")
 
+    channel_image = channel.find(_itunes_tag("image"))
+    if channel_image is None or not _is_https_url(
+        channel_image.attrib.get("href", "")
+    ):
+        raise FeedValidationError("Der Feed enthält kein gültiges Kanalbild.")
+
     items = channel.findall("item")
     if expected_episode_count is not None and len(items) != expected_episode_count:
         raise FeedValidationError("Die Episodenanzahl stimmt nicht überein.")
@@ -80,6 +97,7 @@ def validate_feed_xml(
         title = (item.findtext("title") or "").strip()
         guid = (item.findtext("guid") or "").strip()
         enclosure = item.find("enclosure")
+        episode_image = item.find(_itunes_tag("image"))
 
         if not title:
             raise FeedValidationError("Eine Episode enthält keinen Titel.")
@@ -88,6 +106,13 @@ def validate_feed_xml(
         if guid in seen_guids:
             raise FeedValidationError(f"Doppelte GUID im Feed: {guid}")
         seen_guids.add(guid)
+
+        if episode_image is None or not _is_https_url(
+            episode_image.attrib.get("href", "")
+        ):
+            raise FeedValidationError(
+                f"Episode {title!r} enthält kein gültiges Episodenbild."
+            )
 
         if enclosure is None:
             raise FeedValidationError(f"Episode {title!r} ohne enclosure.")
@@ -120,6 +145,7 @@ def build_validated_feed(
         feed_url=settings.feed_url,
         site_url=settings.site_url,
         image_url=settings.image_url,
+        episode_image_urls=settings.episode_image_urls,
         title=settings.title,
         description=settings.description,
         author=settings.author,

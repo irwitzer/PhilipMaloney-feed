@@ -1,6 +1,6 @@
 """Erzeugung des öffentlichen RSS-Podcast-Feeds."""
 
-from collections.abc import Iterable
+from collections.abc import Iterable, Sequence
 from datetime import UTC, datetime
 from email.utils import format_datetime
 from xml.etree import ElementTree as ET
@@ -52,12 +52,25 @@ def _publishable_episodes(
     )
 
 
+def _episode_image_url(
+    episode_index: int,
+    *,
+    feed_image_url: str,
+    episode_image_urls: Sequence[str],
+) -> str:
+    """Wählt zyklisch eines der eigenen Episodenbilder."""
+    if not episode_image_urls:
+        return feed_image_url
+    return episode_image_urls[episode_index % len(episode_image_urls)]
+
+
 def build_feed(
     episodes: Iterable[Episode],
     *,
     feed_url: str,
     site_url: str,
     image_url: str,
+    episode_image_urls: Sequence[str] = (),
     title: str = "Philip Maloney – inoffizieller RSS-Feed",
     description: str = (
         "Inoffizieller Podcast-Feed für aktuell bei SRF verfügbare "
@@ -108,7 +121,7 @@ def build_feed(
     ET.SubElement(image, "title").text = title
     ET.SubElement(image, "link").text = site_url
 
-    for episode in publishable:
+    for episode_index, episode in enumerate(publishable):
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = episode.title
         ET.SubElement(item, "link").text = episode.page_url
@@ -116,7 +129,17 @@ def build_feed(
         ET.SubElement(item, "pubDate").text = _rfc2822(episode.published_at)
         ET.SubElement(item, "description").text = episode.description
         ET.SubElement(item, _itunes_tag("explicit")).text = "false"
-        ET.SubElement(item, _itunes_tag("image"), {"href": image_url})
+        ET.SubElement(
+            item,
+            _itunes_tag("image"),
+            {
+                "href": _episode_image_url(
+                    episode_index,
+                    feed_image_url=image_url,
+                    episode_image_urls=episode_image_urls,
+                )
+            },
+        )
 
         if episode.duration_seconds is not None:
             ET.SubElement(item, _itunes_tag("duration")).text = str(

@@ -16,6 +16,12 @@ from maloney_feed.publisher import (
     validate_feed_xml,
 )
 
+EPISODE_IMAGE_URLS = tuple(
+    f"https://irwitzer.github.io/PhilipMaloney-feed/"
+    f"episode-images/{number:02d}_Episodenbilder.png"
+    for number in range(1, 12)
+)
+
 
 def make_episode(
     episode_id: str = "AUDI20260726_NR_0003",
@@ -43,6 +49,7 @@ def settings() -> FeedSettings:
             "https://irwitzer.github.io/"
             "PhilipMaloney-feed/podcast-cover.png"
         ),
+        episode_image_urls=EPISODE_IMAGE_URLS,
         title="Philip Maloney Feed",
         description=(
             "Innovativer Podcast-Feed für aktuell bei SRF verfügbare "
@@ -83,6 +90,27 @@ def test_feed_contains_project_metadata() -> None:
     assert "<itunes:author>Roger Graf / SRF</itunes:author>" in xml_text
     assert "Non-commercial" in xml_text
     assert "depubliziert" in xml_text
+
+
+def test_feed_uses_own_rotating_episode_images() -> None:
+    xml_text = build_validated_feed(
+        tuple(
+            make_episode(f"AUDI202607{number:02d}_NR_0001")
+            for number in range(1, 13)
+        ),
+        settings=settings(),
+    )
+    root = ET.fromstring(xml_text)
+    image_urls = [
+        item.find(
+            "{http://www.itunes.com/dtds/podcast-1.0.dtd}image"
+        ).attrib["href"]
+        for item in root.findall("./channel/item")
+    ]
+
+    assert image_urls[:11] == list(EPISODE_IMAGE_URLS)
+    assert image_urls[11] == EPISODE_IMAGE_URLS[0]
+    assert all("srf.ch" not in url.lower() for url in image_urls)
 
 
 def test_rejects_duplicate_guids() -> None:
@@ -128,6 +156,17 @@ def test_settings_require_https() -> None:
         image_url="https://example.test/cover.png",
     )
     with pytest.raises(FeedValidationError, match="feed_url"):
+        build_validated_feed([make_episode()], settings=invalid)
+
+
+def test_episode_image_settings_require_https() -> None:
+    invalid = FeedSettings(
+        feed_url="https://example.test/feed.xml",
+        site_url="https://example.test/",
+        image_url="https://example.test/cover.png",
+        episode_image_urls=("http://example.test/episode.png",),
+    )
+    with pytest.raises(FeedValidationError, match="episode_image_url"):
         build_validated_feed([make_episode()], settings=invalid)
 
 

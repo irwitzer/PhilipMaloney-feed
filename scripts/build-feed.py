@@ -7,13 +7,16 @@ from maloney_feed.publisher import FeedSettings, publish_pipeline_result
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "public" / "feed.xml"
+PUBLIC_BASE_URL = "https://irwitzer.github.io/PhilipMaloney-feed/"
+EPISODE_IMAGE_URLS = tuple(
+    f"{PUBLIC_BASE_URL}episode-images/{number:02d}_Episodenbilder.png"
+    for number in range(1, 12)
+)
 SETTINGS = FeedSettings(
-    feed_url="https://irwitzer.github.io/PhilipMaloney-feed/feed.xml",
-    site_url="https://irwitzer.github.io/PhilipMaloney-feed/",
-    image_url=(
-        "https://irwitzer.github.io/"
-        "PhilipMaloney-feed/podcast-cover.png"
-    ),
+    feed_url=f"{PUBLIC_BASE_URL}feed.xml",
+    site_url=PUBLIC_BASE_URL,
+    image_url=f"{PUBLIC_BASE_URL}podcast-cover.png",
+    episode_image_urls=EPISODE_IMAGE_URLS,
     title="Philip Maloney Feed",
     description=(
         "Innovativer Podcast-Feed für aktuell bei SRF verfügbare "
