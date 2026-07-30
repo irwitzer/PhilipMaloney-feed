@@ -38,11 +38,20 @@ def make_episode(
 def settings() -> FeedSettings:
     return FeedSettings(
         feed_url="https://irwitzer.github.io/PhilipMaloney-feed/feed.xml",
-        site_url="https://www.srf.ch/audio/maloney",
+        site_url="https://irwitzer.github.io/PhilipMaloney-feed/",
         image_url=(
             "https://irwitzer.github.io/"
             "PhilipMaloney-feed/podcast-cover.png"
         ),
+        title="Philip Maloney Feed",
+        description=(
+            "Innovativer Podcast-Feed für aktuell bei SRF verfügbare "
+            "Philip-Maloney-Episoden. Unabhängiges, nicht kommerzielles "
+            "Fanprojekt ohne offizielle Verbindung zu SRF. Non-commercial. "
+            "Folgen, die von SRF depubliziert werden, werden sofort aus dem "
+            "Feed entfernt."
+        ),
+        author="Roger Graf / SRF",
     )
 
 
@@ -61,6 +70,19 @@ def test_build_validated_feed_creates_valid_rss() -> None:
     xml_text = build_validated_feed([make_episode()], settings=settings())
     assert validate_feed_xml(xml_text, expected_episode_count=1) == 1
     assert 'length="22000000"' in xml_text
+
+
+def test_feed_contains_project_metadata() -> None:
+    xml_text = build_validated_feed([make_episode()], settings=settings())
+
+    assert "<title>Philip Maloney Feed</title>" in xml_text
+    assert (
+        "<link>https://irwitzer.github.io/PhilipMaloney-feed/</link>"
+        in xml_text
+    )
+    assert "<itunes:author>Roger Graf / SRF</itunes:author>" in xml_text
+    assert "Non-commercial" in xml_text
+    assert "depubliziert" in xml_text
 
 
 def test_rejects_duplicate_guids() -> None:
@@ -102,7 +124,7 @@ def test_rejects_missing_audio_length() -> None:
 def test_settings_require_https() -> None:
     invalid = FeedSettings(
         feed_url="http://example.test/feed.xml",
-        site_url="https://www.srf.ch/audio/maloney",
+        site_url="https://irwitzer.github.io/PhilipMaloney-feed/",
         image_url="https://example.test/cover.png",
     )
     with pytest.raises(FeedValidationError, match="feed_url"):

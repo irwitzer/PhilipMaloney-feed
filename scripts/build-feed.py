@@ -9,11 +9,20 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "public" / "feed.xml"
 SETTINGS = FeedSettings(
     feed_url="https://irwitzer.github.io/PhilipMaloney-feed/feed.xml",
-    site_url="https://www.srf.ch/audio/maloney",
+    site_url="https://irwitzer.github.io/PhilipMaloney-feed/",
     image_url=(
         "https://irwitzer.github.io/"
         "PhilipMaloney-feed/podcast-cover.png"
     ),
+    title="Philip Maloney Feed",
+    description=(
+        "Innovativer Podcast-Feed für aktuell bei SRF verfügbare "
+        "Philip-Maloney-Episoden. Unabhängiges, nicht kommerzielles "
+        "Fanprojekt ohne offizielle Verbindung zu SRF. Non-commercial. "
+        "Folgen, die von SRF depubliziert werden, werden sofort aus dem "
+        "Feed entfernt."
+    ),
+    author="Roger Graf / SRF",
 )
 
 
