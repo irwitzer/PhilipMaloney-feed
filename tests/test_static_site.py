@@ -95,7 +95,7 @@ def test_warning_icon_has_a_real_exclamation_mark() -> None:
 
     assert '<path d="M12 3 2.5 20h19L12 3Z"/>' in disclaimer
     assert '<path d="M12 8v6.2"/>' in disclaimer
-    assert '<circle cx="12" cy="17.2" r="1"' in disclaimer
+    assert '<circle cx="12" cy="17.2" r="1" fill="#c53a28"' in disclaimer
 
 
 def test_feature_icon_pngs_exist_and_are_referenced() -> None:
@@ -188,3 +188,15 @@ def test_both_subscribe_buttons_copy_the_feed_url() -> None:
         "Feed-URL kopiert. Füge sie jetzt in deine Podcast-App ein."
         in javascript
     )
+
+
+def test_footer_uses_png_artwork_and_legal_notice() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+
+    assert (PUBLIC / "footer-detective.png").is_file()
+    assert (PUBLIC / "footer-city.png").is_file()
+    assert 'src="footer-detective.png"' in html
+    assert 'src="footer-city.png"' in html
+    assert "Audiodateien werden nicht zwischengespeichert" in html
+    assert "nicht mehr öffentlich" in html
+    assert "Inoffizielles Fanprojekt · Keine Verbindung zu SRF" in html

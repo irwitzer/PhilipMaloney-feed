@@ -10,6 +10,82 @@
   <link rel="icon" href="podcast-cover.png">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
+  <style>
+    .footer-panel.footer-panel-art {
+      position: relative;
+      min-height: 178px;
+      grid-template-columns: 154px minmax(0, 1fr);
+      align-items: center;
+      gap: 26px;
+      padding: 24px 345px 22px 28px;
+      overflow: visible;
+    }
+
+    .footer-panel-art .footer-detective {
+      position: relative;
+      z-index: 2;
+      display: block;
+      width: 138px;
+      height: auto;
+      align-self: end;
+      opacity: 0.62;
+      object-fit: contain;
+    }
+
+    .footer-panel-art .footer-copy {
+      max-width: 760px;
+    }
+
+    .footer-panel-art .footer-city {
+      position: absolute;
+      right: -12px;
+      bottom: -2px;
+      z-index: 1;
+      display: block;
+      width: min(430px, 32vw);
+      height: auto;
+      opacity: 0.52;
+      pointer-events: none;
+    }
+
+    @media (max-width: 1120px) {
+      .footer-panel.footer-panel-art {
+        grid-template-columns: 112px minmax(0, 1fr);
+        padding-right: 260px;
+      }
+
+      .footer-panel-art .footer-detective {
+        width: 104px;
+      }
+
+      .footer-panel-art .footer-city {
+        width: 300px;
+        opacity: 0.4;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .footer-panel.footer-panel-art {
+        min-height: 230px;
+        grid-template-columns: 72px minmax(0, 1fr);
+        gap: 14px;
+        padding: 20px 16px 64px;
+        overflow: hidden;
+      }
+
+      .footer-panel-art .footer-detective {
+        width: 68px;
+        align-self: start;
+      }
+
+      .footer-panel-art .footer-city {
+        right: -28px;
+        bottom: -2px;
+        width: 220px;
+        opacity: 0.28;
+      }
+    }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -50,7 +126,7 @@
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M12 3 2.5 20h19L12 3Z"/>
               <path d="M12 8v6.2"/>
-              <circle cx="12" cy="17.2" r="1" fill="currentColor" stroke="none"/>
+              <circle cx="12" cy="17.2" r="1" fill="#c53a28" stroke="none"/>
             </svg>
             <p>
               Dieses Projekt ist ein inoffizielles Fanprojekt und steht in
@@ -225,28 +301,26 @@
   </main>
 
   <footer class="case-footer">
-    <div class="shell footer-panel">
-      <div class="footer-detective" aria-hidden="true">
-        <span class="hat"></span>
-        <span class="head"></span>
-        <span class="coat"></span>
-      </div>
+    <div class="shell footer-panel footer-panel-art">
+      <img
+        class="footer-detective"
+        src="footer-detective.png"
+        alt=""
+        aria-hidden="true"
+      >
 
       <div class="footer-copy">
         <strong>Hinweis zum inoffiziellen Feed</strong>
         <p>
-          Alle Hörspielinhalte und Audiodateien stammen von SRF.
-          Dieser Feed verlinkt ausschließlich auf öffentlich erreichbare
-          SRF-Ressourcen.
+          Alle Hörspielinhalte und Audiodateien stammen von SRF. Dieser Feed
+          verlinkt ausschließlich auf öffentlich erreichbare SRF-Ressourcen.
+          Audiodateien werden nicht zwischengespeichert; nicht mehr öffentlich
+          verfügbare Episoden werden umgehend aus dem Feed entfernt.
         </p>
         <small>Inoffizielles Fanprojekt · Keine Verbindung zu SRF</small>
       </div>
 
-      <svg class="footer-city" viewBox="0 0 420 130" aria-hidden="true">
-        <path d="M5 117h410M20 117V92h35v25M55 117V76h30v41M85 117V87h48v30M133 117V69h32v48M165 117V83h38v34M203 117V53h36v64M239 117V73h50v44M289 117V91h38v26M327 117V79h47v38M374 117V96h30v21"/>
-        <path d="M207 53h28l-14-25-14 25ZM218 28V10M205 95h32M216 68h10"/>
-        <path d="M129 69h40l-20-18-20 18ZM286 91h44l-22-17-22 17ZM50 92h40l-20-16-20 16Z"/>
-      </svg>
+      <img class="footer-city" src="footer-city.png" alt="" aria-hidden="true">
     </div>
   </footer>
 </body>
