@@ -19,11 +19,12 @@ SETTINGS = FeedSettings(
     episode_image_urls=EPISODE_IMAGE_URLS,
     title="Philip Maloney Feed",
     description=(
-        "Innovativer Podcast-Feed für aktuell bei SRF verfügbare "
-        "Philip-Maloney-Episoden. Unabhängiges, nicht kommerzielles "
-        "Fanprojekt ohne offizielle Verbindung zu SRF. Non-commercial. "
-        "Folgen, die von SRF depubliziert werden, werden sofort aus dem "
-        "Feed entfernt."
+        "Inoffizieller Philip Maloney Feed • Hinweis zum inoffiziellen Feed\n"
+        "Alle Hörspielinhalte und Audiodateien stammen von SRF. Dieser Feed "
+        "verlinkt ausschließlich auf öffentlich erreichbare SRF-Ressourcen. "
+        "Audiodateien werden nicht zwischengespeichert, nicht mehr öffentlich "
+        "verfügbare Episoden werden umgehend aus dem Feed entfernt.\n\n"
+        "Inoffizielles Fanprojekt • Keine Verbindung zu SRF • Non-commercial"
     ),
     author="Roger Graf / SRF",
 )
