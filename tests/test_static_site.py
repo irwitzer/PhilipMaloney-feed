@@ -102,8 +102,8 @@ def test_feature_cards_have_consistent_content_and_links() -> None:
     css = (PUBLIC / "styles.css").read_text(encoding="utf-8")
 
     assert "<h2>Aktuelle Episoden</h2>" in html
-    assert '<strong id="episode-count">â€“</strong> Episoden' in html
-    assert "<h2>EpisodenÃ¼bersicht</h2>" in html
+    assert '<strong id="episode-count">–</strong> Episoden' in html
+    assert "<h2>Episodenübersicht</h2>" in html
 
     assert 'href="https://www.srf.ch/audio/maloney"' in html
     assert 'href="https://github.com/irwitzer/PhilipMaloney-feed"' in html
@@ -115,3 +115,28 @@ def test_feature_cards_have_consistent_content_and_links() -> None:
     assert ".episode-total" in css
     assert ".stat-card-link" in css
     assert "min-height: 2.6em;" in css
+
+
+def test_feature_card_text_is_valid_utf8() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+
+    expected_texts = (
+        "Tägliche Aktualisierung",
+        "Episodenübersicht",
+        "Alle derzeit verfügbaren Folgen des Philip-Maloney-Hörspiels.",
+        "Der Feed wird automatisch geprüft und bei neuen Folgen erweitert.",
+        "Alle verfügbaren Philip-Maloney-Folgen direkt auf der offiziellen SRF-Seite.",
+        "Offen, transparent und zuverlässig über GitHub Pages bereitgestellt.",
+        "Jeder neue Feed wird vor der Veröffentlichung technisch geprüft.",
+    )
+
+    for expected in expected_texts:
+        assert expected in html
+
+    broken_markers = (
+        "Ã",
+        "Â",
+        "â€“",
+        "â€”",
+    )
+    assert not any(marker in html for marker in broken_markers)
