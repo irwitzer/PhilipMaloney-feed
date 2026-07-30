@@ -1,4 +1,4 @@
-"""Tests für getrennte Desktop- und Mobil-Hero-Assets."""
+﻿"""Tests für getrennte Desktop- und Mobil-Hero-Assets."""
 
 from pathlib import Path
 
@@ -77,3 +77,21 @@ def test_header_contains_only_the_brand() -> None:
     assert ">Episoden<" not in header
     assert ">Abonnieren<" not in header
     assert ">GitHub<" not in header
+
+
+def test_feature_icon_pngs_exist_and_are_referenced() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+
+    icon_names = [
+        "01_MaloneyIcons.png",
+        "02_MaloneyIcons.png",
+        "03_MaloneyIcons.png",
+        "04_MaloneyIcons.png",
+        "05_MaloneyIcons.png",
+    ]
+
+    for icon_name in icon_names:
+        assert (PUBLIC / "icons" / icon_name).is_file()
+        assert f'src="icons/{icon_name}"' in html
+
+    assert html.count('class="feature-icon feature-icon-image"') == 5
