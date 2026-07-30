@@ -86,7 +86,7 @@ const renderEpisodes = (items) => {
       </time>
       <h3>${escapeHtml(title)}</h3>
       <p>${escapeHtml(description)}</p>
-      <a href="${escapeHtml(link)}">
+      <a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
         Fall öffnen${duration ? ` · ${escapeHtml(formatDuration(duration))}` : ""}
       </a>
     `;
@@ -122,7 +122,7 @@ const loadFeed = async () => {
         <p>
           Die Episoden konnten in dieser Ansicht nicht automatisch geladen werden.
         </p>
-        <a href="${FEED_URL}">Feed XML öffnen</a>
+        <a href="${FEED_URL}" target="_blank" rel="noopener noreferrer">Feed XML öffnen</a>
       </article>
     `;
     console.error("Feed konnte nicht geladen werden:", error);

@@ -200,3 +200,37 @@ def test_footer_uses_png_artwork_and_legal_notice() -> None:
     assert "Audiodateien werden nicht zwischengespeichert" in html
     assert "nicht mehr öffentlich" in html
     assert "Inoffizielles Fanprojekt · Keine Verbindung zu SRF" in html
+
+
+
+def test_external_links_and_episode_links_open_in_new_tabs() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    javascript = (PUBLIC / "app.js").read_text(encoding="utf-8")
+
+    assert (
+        'href="https://github.com/irwitzer/PhilipMaloney-feed" '
+        'target="_blank" rel="noopener noreferrer"'
+        in html
+    )
+    assert 'href="https://www.imdb.com/de/name/nm0782361/"' in html
+    assert 'href="https://www.srf.ch/unternehmen"' in html
+    assert (
+        '<a href="${escapeHtml(link)}" target="_blank" '
+        'rel="noopener noreferrer">'
+        in javascript
+    )
+
+
+def test_contributor_notice_is_centralized_in_footer() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    contributors = html.split(
+        '<section class="contributors-section"',
+        maxsplit=1,
+    )[1].split("</section>", maxsplit=1)[0]
+    footer = html.split('<footer class="case-footer">', maxsplit=1)[1]
+
+    assert "contributors-note" not in contributors
+    assert "künstlerische Darstellungen" in footer
+    assert "keine offiziellen" in footer
+    assert "Freigabe dieses Fanprojekts" in footer
+    assert "SRF ist die Heimat von Maloney" in contributors
