@@ -95,3 +95,23 @@ def test_feature_icon_pngs_exist_and_are_referenced() -> None:
         assert f'src="icons/{icon_name}"' in html
 
     assert html.count('class="feature-icon feature-icon-image"') == 5
+
+
+def test_feature_cards_have_consistent_content_and_links() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    css = (PUBLIC / "styles.css").read_text(encoding="utf-8")
+
+    assert "<h2>Aktuelle Episoden</h2>" in html
+    assert '<strong id="episode-count">â€“</strong> Episoden' in html
+    assert "<h2>EpisodenÃ¼bersicht</h2>" in html
+
+    assert 'href="https://www.srf.ch/audio/maloney"' in html
+    assert 'href="https://github.com/irwitzer/PhilipMaloney-feed"' in html
+    assert 'href="https://github.com/irwitzer/PhilipMaloney-feed/actions"' in html
+
+    assert html.count('class="stat-card stat-card-info"') == 2
+    assert html.count('class="stat-card stat-card-link"') == 3
+
+    assert ".episode-total" in css
+    assert ".stat-card-link" in css
+    assert "min-height: 2.6em;" in css

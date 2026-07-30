@@ -1004,3 +1004,54 @@ a {
     height: 64px;
   }
 }
+
+/* Einheitliche Informations- und Linkkarten */
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+}
+
+.stat-card h2 {
+  min-height: 2.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.episode-total {
+  margin: 0 0 9px !important;
+  color: var(--paper-strong) !important;
+  font: 700 0.98rem/1.25 "Arial Narrow", Arial, sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+
+.episode-total strong {
+  display: inline;
+  margin-right: 0.16em;
+  color: var(--paper-strong);
+  font: 1.5rem/1 Impact, "Arial Narrow", sans-serif;
+}
+
+.stat-card-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stat-card-link:hover,
+.stat-card-link:focus-visible {
+  transform: translateY(-4px);
+  border-color: rgba(198, 169, 107, 0.78);
+  background:
+    linear-gradient(145deg, rgba(35, 31, 24, 0.99), rgba(13, 12, 10, 0.99));
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.28),
+    inset 0 0 0 1px rgba(198, 169, 107, 0.08);
+  outline: none;
+}
+
+.stat-card-info:hover {
+  transform: translateY(-1px);
+}
