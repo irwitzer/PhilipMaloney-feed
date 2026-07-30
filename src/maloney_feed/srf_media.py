@@ -2,8 +2,9 @@
 
 from __future__ import annotations
 
+import re
 from collections.abc import Mapping, Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import UTC, datetime
 from typing import Any
 from urllib.parse import quote
@@ -22,6 +23,7 @@ INTEGRATION_LAYER_BASE_URL = (
     "https://il.srgssr.ch/integrationlayer/2.1/"
     "mediaComposition/byUrn"
 )
+_CONTENT_RANGE_PATTERN = re.compile(r"bytes\s+\d+-\d+/(?P<total>\d+|\*)")
 
 
 @dataclass(frozen=True, slots=True)
@@ -32,6 +34,7 @@ class SrfAudioResource:
     mime_type: str
     quality: str | None
     duration_seconds: int | None
+    audio_length: int | None
     valid_from: datetime | None
     valid_to: datetime | None
     playable_abroad: bool
@@ -110,9 +113,7 @@ def parse_media_composition(
 ) -> SrfAudioResource | None:
     """Wählt die beste progressive HTTPS-MP3-Ressource aus."""
     if not isinstance(payload, Mapping):
-        raise SrfSourceError(
-            "Die SRF-Medienantwort ist kein JSON-Objekt."
-        )
+        raise SrfSourceError("Die SRF-Medienantwort ist kein JSON-Objekt.")
 
     chapter_list = payload.get("chapterList")
     if not isinstance(chapter_list, Sequence) or isinstance(
@@ -122,10 +123,7 @@ def parse_media_composition(
         raise SrfSourceError("Die SRF-Medienantwort enthält keine chapterList.")
 
     chapter = _find_matching_chapter(chapter_list, asset_urn=asset_urn)
-    if chapter is None:
-        return None
-
-    if chapter.get("displayable") is False:
+    if chapter is None or chapter.get("displayable") is False:
         return None
 
     resource_list = chapter.get("resourceList")
@@ -160,11 +158,29 @@ def parse_media_composition(
             else None
         ),
         duration_seconds=duration_seconds,
+        audio_length=None,
         valid_from=_parse_datetime(chapter.get("validFrom")),
         valid_to=_parse_datetime(chapter.get("validTo")),
         playable_abroad=chapter.get("playableAbroad") is True,
         displayable=chapter.get("displayable") is not False,
     )
+
+
+def _positive_content_length(headers: httpx.Headers) -> int | None:
+    value = headers.get("Content-Length")
+    if value and value.isdigit() and int(value) > 0:
+        return int(value)
+    return None
+
+
+def _total_from_content_range(headers: httpx.Headers) -> int | None:
+    value = headers.get("Content-Range", "")
+    match = _CONTENT_RANGE_PATTERN.fullmatch(value.strip())
+    if not match or match.group("total") == "*":
+        return None
+
+    total = int(match.group("total"))
+    return total if total > 0 else None
 
 
 def attach_audio_resource(
@@ -185,12 +201,13 @@ def attach_audio_resource(
             if resource.duration_seconds is not None
             else source.duration_seconds
         ),
+        audio_length=resource.audio_length,
         audio_type=resource.mime_type,
     )
 
 
 class SrfMediaClient:
-    """HTTP-Client für die SRF-Medienauflösung."""
+    """HTTP-Client für Medienauflösung und MP3-Dateigröße."""
 
     def __init__(
         self,
@@ -215,8 +232,42 @@ class SrfMediaClient:
     def __exit__(self, *_: object) -> None:
         self.close()
 
+    def _fetch_audio_length(self, url: str) -> int:
+        """Ermittelt die Byte-Größe per HEAD, mit Range-GET als Rückfallweg."""
+        try:
+            response = self._client.head(url)
+            response.raise_for_status()
+            length = _positive_content_length(response.headers)
+            if length is not None:
+                return length
+        except httpx.HTTPError:
+            pass
+
+        try:
+            with self._client.stream(
+                "GET",
+                url,
+                headers={"Range": "bytes=0-0"},
+            ) as response:
+                response.raise_for_status()
+                length = _total_from_content_range(response.headers)
+                if length is not None:
+                    return length
+
+                length = _positive_content_length(response.headers)
+                if length is not None and response.status_code == 200:
+                    return length
+        except httpx.HTTPError as exc:
+            raise SrfSourceError(
+                f"MP3-Dateigröße konnte nicht ermittelt werden: {url}"
+            ) from exc
+
+        raise SrfSourceError(
+            f"SRF liefert keine verwertbare MP3-Dateigröße: {url}"
+        )
+
     def fetch(self, asset_urn: str) -> SrfAudioResource | None:
-        """Lädt und analysiert die Medienzusammensetzung einer Episode."""
+        """Lädt Medienzusammensetzung und ergänzt die echte Byte-Größe."""
         try:
             response = self._client.get(build_media_url(asset_urn))
             response.raise_for_status()
@@ -226,4 +277,11 @@ class SrfMediaClient:
                 f"SRF-Medienressource konnte nicht geladen werden: {asset_urn}"
             ) from exc
 
-        return parse_media_composition(payload, asset_urn=asset_urn)
+        resource = parse_media_composition(payload, asset_urn=asset_urn)
+        if resource is None:
+            return None
+
+        return replace(
+            resource,
+            audio_length=self._fetch_audio_length(resource.url),
+        )

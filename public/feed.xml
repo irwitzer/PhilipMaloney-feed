@@ -5,7 +5,7 @@
     <link>https://www.srf.ch/audio/maloney</link>
     <description>Inoffizieller Podcast-Feed für aktuell bei SRF verfügbare Philip-Maloney-Episoden.</description>
     <language>de-ch</language>
-    <lastBuildDate>Thu, 30 Jul 2026 04:48:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 05:13:31 GMT</lastBuildDate>
     <itunes:author>SRF / Philip Maloney</itunes:author>
     <itunes:summary>Inoffizieller Podcast-Feed für aktuell bei SRF verfügbare Philip-Maloney-Episoden.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
@@ -26,7 +26,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1567</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260726_NR_0003_25648c96cd194c1585cd9b0f1fc7bb5d.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260726_NR_0003_25648c96cd194c1585cd9b0f1fc7bb5d.mp3" length="25071213" type="audio/mpeg" />
     </item>
     <item>
       <title>Haarige Zeiten</title>
@@ -37,7 +37,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1176</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260719_NR_0003_12fc285715b84c8eb04d1c10ce779966.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260719_NR_0003_12fc285715b84c8eb04d1c10ce779966.mp3" length="18815469" type="audio/mpeg" />
     </item>
     <item>
       <title>Stille Wasser</title>
@@ -48,7 +48,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1451</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260712_NR_0004_64d2848e5bc940dda78ae5cc6f8f0771.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260712_NR_0004_64d2848e5bc940dda78ae5cc6f8f0771.mp3" length="23216493" type="audio/mpeg" />
     </item>
     <item>
       <title>Mord im Theater</title>
@@ -59,7 +59,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1497</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260705_NR_0004_3f98c9110aad4050a026ebcd322225d0.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260705_NR_0004_3f98c9110aad4050a026ebcd322225d0.mp3" length="23948013" type="audio/mpeg" />
     </item>
     <item>
       <title>Das Erlebnishotel</title>
@@ -70,7 +70,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1412</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260628_NR_0003_26004e3752da411988c9c558eac29d40.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260628_NR_0003_26004e3752da411988c9c558eac29d40.mp3" length="22590957" type="audio/mpeg" />
     </item>
     <item>
       <title>Paranoia</title>
@@ -81,7 +81,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1581</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260621_NR_0004_5c970ad474374b3a83c552682fc1014f.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260621_NR_0004_5c970ad474374b3a83c552682fc1014f.mp3" length="25296621" type="audio/mpeg" />
     </item>
     <item>
       <title>Tod eines Architekten</title>
@@ -92,7 +92,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1272</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260614_NR_0005_f5a0c611cc8e451ea4296a403852024f.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260614_NR_0005_f5a0c611cc8e451ea4296a403852024f.mp3" length="20347245" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Politesse</title>
@@ -103,7 +103,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1669</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260607_NR_0005_482589c2fdc14c49b6dcd6feff0316a9.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260607_NR_0005_482589c2fdc14c49b6dcd6feff0316a9.mp3" length="26703981" type="audio/mpeg" />
     </item>
     <item>
       <title>Eine seltsame Erpressung</title>
@@ -114,7 +114,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1454</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260531_NR_0001_e0068745e9334571b563814d5579a43a.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260531_NR_0001_e0068745e9334571b563814d5579a43a.mp3" length="23260269" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Alters-WG</title>
@@ -125,7 +125,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1368</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260524_NR_0001_13fe08e95e6d44d197a008592d1768cd.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260524_NR_0001_13fe08e95e6d44d197a008592d1768cd.mp3" length="21896301" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Vision</title>
@@ -136,7 +136,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1482</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260517_NR_0001_8ff0a9263ede4d858e7a0e85fc1cc493.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260517_NR_0001_8ff0a9263ede4d858e7a0e85fc1cc493.mp3" length="23712621" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Raubüberfall</title>
@@ -147,7 +147,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1340</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260510_NR_0001_b07a1353c38d4a4eade197865fcc536c.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260510_NR_0001_b07a1353c38d4a4eade197865fcc536c.mp3" length="21440877" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Spätvorstellung</title>
@@ -158,7 +158,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1309</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260503_NR_0001_2ba382572e9a4b2393e8472021e0da00.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260503_NR_0001_2ba382572e9a4b2393e8472021e0da00.mp3" length="20948205" type="audio/mpeg" />
     </item>
     <item>
       <title>Zerstörtes Glück</title>
@@ -169,7 +169,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1586</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260426_NR_0001_d6a2add7e6864f2b81528a8e140fb706.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260426_NR_0001_d6a2add7e6864f2b81528a8e140fb706.mp3" length="25369581" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Elsterverein</title>
@@ -180,7 +180,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1464</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260419_NR_0002_4c9b6ea51c21443f8d6c0aa2732f74e4.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260419_NR_0002_4c9b6ea51c21443f8d6c0aa2732f74e4.mp3" length="23425773" type="audio/mpeg" />
     </item>
     <item>
       <title>Billi the Kid</title>
@@ -191,7 +191,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1328</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260412_NR_0001_13153cfb9efa46db84508d1c00dd13d4.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260412_NR_0001_13153cfb9efa46db84508d1c00dd13d4.mp3" length="21242733" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Heiratsschwindler</title>
@@ -202,7 +202,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1248</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260405_NR_0001_b57eb0a4b5224ac39c400be81073557f.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260405_NR_0001_b57eb0a4b5224ac39c400be81073557f.mp3" length="19968621" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Tante-Emma-Laden</title>
@@ -213,7 +213,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1473</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260329_NR_0003_6ffb6699bc7f4cebba94513fae929e1f.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260329_NR_0003_6ffb6699bc7f4cebba94513fae929e1f.mp3" length="23568621" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Postraub</title>
@@ -224,7 +224,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1422</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260322_NR_0004_266e7b1f790648ce8cb8dbf8cfaf2295.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260322_NR_0004_266e7b1f790648ce8cb8dbf8cfaf2295.mp3" length="22759149" type="audio/mpeg" />
     </item>
     <item>
       <title>Ein Funken Verstand</title>
@@ -235,7 +235,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1600</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260315_NR_0004_c28024b2b5f149cca7caf7f01446797d.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260315_NR_0004_c28024b2b5f149cca7caf7f01446797d.mp3" length="25606125" type="audio/mpeg" />
     </item>
     <item>
       <title>Tödliches Spiel</title>
@@ -246,7 +246,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1422</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260308_NR_0004_f1444e357eb54f07bc2f8da1157ee682.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260308_NR_0004_f1444e357eb54f07bc2f8da1157ee682.mp3" length="22753005" type="audio/mpeg" />
     </item>
     <item>
       <title>Der verschwundene Nachbar</title>
@@ -257,7 +257,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1593</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260301_NR_0004_f13260fd8bbe4d238f90240ad32827a2.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260301_NR_0004_f13260fd8bbe4d238f90240ad32827a2.mp3" length="25483629" type="audio/mpeg" />
     </item>
     <item>
       <title>Der schöne Fuss</title>
@@ -268,7 +268,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1272</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260222_NR_0005_6e08a6cde4114e59b22e9b956e9bec06.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260222_NR_0005_6e08a6cde4114e59b22e9b956e9bec06.mp3" length="20352237" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Mann am Fenster</title>
@@ -279,7 +279,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1449</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260215_NR_0005_52749b659f394401a46eaaf49bf365ad.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260215_NR_0005_52749b659f394401a46eaaf49bf365ad.mp3" length="23191917" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Hilferuf</title>
@@ -290,7 +290,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1671</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260208_NR_0007_7a7a8842714a44438028e709251197cd.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260208_NR_0007_7a7a8842714a44438028e709251197cd.mp3" length="26743917" type="audio/mpeg" />
     </item>
     <item>
       <title>Der falsche Hund</title>
@@ -301,7 +301,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1284</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260201_NR_0060_ea97bbd019da43659ddfca20533fc897.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260201_NR_0060_ea97bbd019da43659ddfca20533fc897.mp3" length="20541933" type="audio/mpeg" />
     </item>
     <item>
       <title>Eiseskälte</title>
@@ -312,7 +312,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1635</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260125_NR_0002_8cf85dd940be4ec4ace831b9e3a59918.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260125_NR_0002_8cf85dd940be4ec4ace831b9e3a59918.mp3" length="26159853" type="audio/mpeg" />
     </item>
     <item>
       <title>Die lieben Nachbarn</title>
@@ -323,7 +323,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1152</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260118_NR_0002_bdf944a55200473185ea00c3cad15faf.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260118_NR_0002_bdf944a55200473185ea00c3cad15faf.mp3" length="18428013" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Schneemann</title>
@@ -334,7 +334,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1234</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260111_NR_0002_4b31c46454094a12b145d1f9ed1671bf.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260111_NR_0002_4b31c46454094a12b145d1f9ed1671bf.mp3" length="19746285" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Millenniumsleiche</title>
@@ -345,7 +345,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1261</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260104_NR_0002_18637542f24e40b8ae90dd023674fcaa.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260104_NR_0002_18637542f24e40b8ae90dd023674fcaa.mp3" length="20178669" type="audio/mpeg" />
     </item>
     <item>
       <title>Im Schneckentempo</title>
@@ -356,7 +356,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1705</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251228_NR_0003_e6de1b25ec264ed4ba35ecb12498dc08.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251228_NR_0003_e6de1b25ec264ed4ba35ecb12498dc08.mp3" length="27285741" type="audio/mpeg" />
     </item>
     <item>
       <title>Oh Tannenbaum</title>
@@ -367,7 +367,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1653</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251221_NR_0003_760accf915db48998bb37974d7a8921e.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251221_NR_0003_760accf915db48998bb37974d7a8921e.mp3" length="26450157" type="audio/mpeg" />
     </item>
     <item>
       <title>Das Kaffeekränzchen</title>
@@ -378,7 +378,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1459</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251214_NR_0003_a4b713ab7b0a4798be3814cf3412d7dd.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251214_NR_0003_a4b713ab7b0a4798be3814cf3412d7dd.mp3" length="23348589" type="audio/mpeg" />
     </item>
     <item>
       <title>Aus heiterem Himmel</title>
@@ -389,7 +389,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1367</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251207_NR_0003_612554eaf43e4abdacd8bf927947f55b.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251207_NR_0003_612554eaf43e4abdacd8bf927947f55b.mp3" length="21864813" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Balkonmörder</title>
@@ -400,7 +400,7 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1642</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251130_NR_0006_a8b4ff1f9cec4282a14dd79eb97632f8.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251130_NR_0006_a8b4ff1f9cec4282a14dd79eb97632f8.mp3" length="26275437" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Sprengmeister</title>
@@ -412,7 +412,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1307</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251123_NR_0005_5b80f17a3712442c9fb5160e36297de8.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251123_NR_0005_5b80f17a3712442c9fb5160e36297de8.mp3" length="20907501" type="audio/mpeg" />
     </item>
     <item>
       <title>Gesundheit</title>
@@ -423,7 +423,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1781</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251116_NR_0007_0c5487fcada14d2085aa8eb2ddb2d1b5.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251116_NR_0007_0c5487fcada14d2085aa8eb2ddb2d1b5.mp3" length="28498797" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Vorleser</title>
@@ -434,7 +434,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1210</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251109_NR_0025_d3d85c1c8a85497b857e095d4d785fc6.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251109_NR_0025_d3d85c1c8a85497b857e095d4d785fc6.mp3" length="19359981" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Mann im Hotel</title>
@@ -445,7 +445,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1316</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251102_NR_0022_2dc436d264594ea586ac0c4015af82e4.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251102_NR_0022_2dc436d264594ea586ac0c4015af82e4.mp3" length="21056493" type="audio/mpeg" />
     </item>
     <item>
       <title>Die perfekte Mischung</title>
@@ -456,7 +456,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1533</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251026_NR_0005_a842c43d33f3406994699217fc1e07b6.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251026_NR_0005_a842c43d33f3406994699217fc1e07b6.mp3" length="24526317" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Stimme</title>
@@ -467,7 +467,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1335</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251019_NR_0007_b8c03e36e4244d45927cf6a01bb4dc90.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251019_NR_0007_b8c03e36e4244d45927cf6a01bb4dc90.mp3" length="21356013" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Autodieb</title>
@@ -478,7 +478,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1286</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251012_NR_0046_9d9584d0e8834f16824047efb931b65a.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251012_NR_0046_9d9584d0e8834f16824047efb931b65a.mp3" length="20569581" type="audio/mpeg" />
     </item>
     <item>
       <title>Die blaue Tasche</title>
@@ -489,7 +489,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1371</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251005_NR_0028_460835be0fd44367b9a4a103484790bd.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251005_NR_0028_460835be0fd44367b9a4a103484790bd.mp3" length="21941997" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Drohne</title>
@@ -500,7 +500,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1743</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250928_NR_0003_6f2f030b82284eebb6495beb5dd9b632.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250928_NR_0003_6f2f030b82284eebb6495beb5dd9b632.mp3" length="27880941" type="audio/mpeg" />
     </item>
     <item>
       <title>Tiefdruckgebiete</title>
@@ -511,7 +511,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1322</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250921_NR_0002_822e11824d1a4203a21172bc6db8ec9c.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250921_NR_0002_822e11824d1a4203a21172bc6db8ec9c.mp3" length="21146349" type="audio/mpeg" />
     </item>
     <item>
       <title>Auf Messers Schneide</title>
@@ -522,7 +522,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1473</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250914_NR_0002_730c64e2f0d1439c90176853b0281e55.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250914_NR_0002_730c64e2f0d1439c90176853b0281e55.mp3" length="23568621" type="audio/mpeg" />
     </item>
     <item>
       <title>Das Skelett</title>
@@ -533,7 +533,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1353</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250907_NR_0004_515822e2ff844e419fe1cc1c7ca08c3c.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250907_NR_0004_515822e2ff844e419fe1cc1c7ca08c3c.mp3" length="21653997" type="audio/mpeg" />
     </item>
     <item>
       <title>Die Bedrohung</title>
@@ -544,7 +544,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1338</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250831_NR_0006_b07bf7c32ba14a729c5bd478fd152529.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250831_NR_0006_b07bf7c32ba14a729c5bd478fd152529.mp3" length="21403245" type="audio/mpeg" />
     </item>
     <item>
       <title>Süsse Geheimnisse</title>
@@ -555,7 +555,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1106</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250824_NR_0006_816a4176c5604738a966eefb2f28dfd1.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250824_NR_0006_816a4176c5604738a966eefb2f28dfd1.mp3" length="17698797" type="audio/mpeg" />
     </item>
     <item>
       <title>Der Schlüssel zum Erfolg</title>
@@ -566,7 +566,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1752</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250817_NR_0007_29c4889c0ff5470f99565983646b89b7.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250817_NR_0007_29c4889c0ff5470f99565983646b89b7.mp3" length="28039149" type="audio/mpeg" />
     </item>
     <item>
       <title>Tote Liebe</title>
@@ -577,7 +577,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1377</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/07/Maloney_radio_AUDI20250810_NR_0016_4d464085b19544ec9b8cd25193bc707c.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/07/Maloney_radio_AUDI20250810_NR_0016_4d464085b19544ec9b8cd25193bc707c.mp3" length="22029549" type="audio/mpeg" />
     </item>
     <item>
       <title>Das Feuerwerk</title>
@@ -588,7 +588,7 @@ Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
       <itunes:duration>1667</itunes:duration>
-      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/07/Maloney_radio_AUDI20250803_NR_0020_ebe8f9545b8d4031adc9e7faa6f06313.mp3" length="0" type="audio/mpeg" />
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/07/Maloney_radio_AUDI20250803_NR_0020_ebe8f9545b8d4031adc9e7faa6f06313.mp3" length="26673645" type="audio/mpeg" />
     </item>
   </channel>
 </rss>

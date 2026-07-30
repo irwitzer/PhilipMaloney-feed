@@ -20,6 +20,7 @@ from maloney_feed.publisher import (
 def make_episode(
     episode_id: str = "AUDI20260726_NR_0003",
     audio_url: str = "https://download-media.srf.ch/superfood.mp3",
+    audio_length: int = 22_000_000,
 ) -> Episode:
     return Episode(
         episode_id=episode_id,
@@ -29,6 +30,7 @@ def make_episode(
         published_at=datetime(2026, 7, 26, 9, 10, tzinfo=UTC),
         description="Beschreibung",
         duration_seconds=1567,
+        audio_length=audio_length,
         audio_type="audio/mpeg",
     )
 
@@ -58,6 +60,7 @@ def result(episodes: tuple[Episode, ...]) -> PipelineResult:
 def test_build_validated_feed_creates_valid_rss() -> None:
     xml_text = build_validated_feed([make_episode()], settings=settings())
     assert validate_feed_xml(xml_text, expected_episode_count=1) == 1
+    assert 'length="22000000"' in xml_text
 
 
 def test_rejects_duplicate_guids() -> None:
@@ -70,25 +73,28 @@ def test_rejects_duplicate_guids() -> None:
     )
     root = ET.fromstring(xml_text)
     items = root.findall("./channel/item")
-
-    assert len(items) == 2
-
     first_guid = items[0].findtext("guid")
     second_guid = items[1].find("guid")
     assert first_guid is not None
     assert second_guid is not None
-
     second_guid.text = first_guid
-    duplicate_xml = ET.tostring(root, encoding="unicode")
 
     with pytest.raises(FeedValidationError, match="Doppelte GUID"):
-        validate_feed_xml(duplicate_xml)
+        validate_feed_xml(ET.tostring(root, encoding="unicode"))
 
 
 def test_rejects_non_https_audio_url() -> None:
     with pytest.raises(FeedValidationError, match="Audio-URL"):
         build_validated_feed(
             [make_episode(audio_url="http://example.test/audio.mp3")],
+            settings=settings(),
+        )
+
+
+def test_rejects_missing_audio_length() -> None:
+    with pytest.raises(FeedValidationError, match="Dateigröße"):
+        build_validated_feed(
+            [make_episode(audio_length=0)],
             settings=settings(),
         )
 

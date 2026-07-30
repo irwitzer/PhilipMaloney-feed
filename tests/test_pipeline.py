@@ -48,6 +48,7 @@ def audio_resource(episode_id: str) -> SrfAudioResource:
         mime_type="audio/mpeg",
         quality="HD",
         duration_seconds=1500,
+        audio_length=22_000_000,
         valid_from=NOW - timedelta(days=1),
         valid_to=NOW + timedelta(days=364),
         playable_abroad=True,
@@ -99,6 +100,10 @@ def test_resolves_available_episodes_and_sorts_newest_first() -> None:
         "NEWER",
         "OLDER",
     ]
+    assert all(
+        episode.audio_length == 22_000_000
+        for episode in result.episodes
+    )
     assert result.catalog_count == 2
     assert result.failures == ()
 

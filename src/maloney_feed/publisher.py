@@ -100,6 +100,12 @@ def validate_feed_xml(
                 f"Episode {title!r} verwendet nicht audio/mpeg."
             )
 
+        length = enclosure.attrib.get("length", "")
+        if not length.isdigit() or int(length) <= 0:
+            raise FeedValidationError(
+                f"Episode {title!r} enthält keine gültige Dateigröße."
+            )
+
     return len(items)
 
 
