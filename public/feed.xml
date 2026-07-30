@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Philip Maloney – inoffizieller RSS-Feed</title>
+    <link>https://www.srf.ch/audio/maloney</link>
+    <description>Inoffizieller Podcast-Feed für aktuell bei SRF verfügbare Philip-Maloney-Episoden.</description>
+    <language>de-ch</language>
+    <lastBuildDate>Thu, 30 Jul 2026 04:48:18 GMT</lastBuildDate>
+    <itunes:author>SRF / Philip Maloney</itunes:author>
+    <itunes:summary>Inoffizieller Podcast-Feed für aktuell bei SRF verfügbare Philip-Maloney-Episoden.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Fiction" />
+    <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+    <atom:link href="https://irwitzer.github.io/PhilipMaloney-feed/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png</url>
+      <title>Philip Maloney – inoffizieller RSS-Feed</title>
+      <link>https://www.srf.ch/audio/maloney</link>
+    </image>
+    <item>
+      <title>Superfood</title>
+      <link>https://www.srf.ch/audio/maloney/superfood?id=AUDI20260726_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260726_NR_0003</guid>
+      <pubDate>Sun, 26 Jul 2026 09:10:00 GMT</pubDate>
+      <description>Maloneys Klient hat seit Tagen nichts von seinem Sohn gehört. Dieser vertreibt zusammen mit einem Geschäftspartner sogenanntes Superfood. Dazu reist er in entlegene Gegenden und kauft wenig bekannte Körner und Hülsenfrüchte auf. Der Geschäftspartner hat keine Ahnung, wo sich Jean Esterholz aufhält.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1567</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260726_NR_0003_25648c96cd194c1585cd9b0f1fc7bb5d.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Haarige Zeiten</title>
+      <link>https://www.srf.ch/audio/maloney/haarige-zeiten?id=AUDI20260719_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260719_NR_0003</guid>
+      <pubDate>Sun, 19 Jul 2026 09:10:00 GMT</pubDate>
+      <description>Herr Pauli besitzt einen Coiffeursalon. Eine seiner Angestellten ist seit zwei Tagen unauffindbar und Herr Pauli beauftragt Maloney, nach ihr zu suchen. Schon bald erfährt Maloney, dass möglicherweise Liebe im Spiel ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1176</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260719_NR_0003_12fc285715b84c8eb04d1c10ce779966.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Stille Wasser</title>
+      <link>https://www.srf.ch/audio/maloney/stille-wasser?id=AUDI20260712_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260712_NR_0004</guid>
+      <pubDate>Sun, 12 Jul 2026 09:10:00 GMT</pubDate>
+      <description>Maloneys Klientin ist eine Objektkünstlerin, die für ihre neue Ausstellung Gegenstände sammelt, die sie in Flüssen und Seen findet. Da bei ihr eingebrochen worden ist, vermutet sie, dass entweder jemand an einem der Fundstücke interessiert ist, oder ein Konkurrent auf Ideenklau aus ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1451</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260712_NR_0004_64d2848e5bc940dda78ae5cc6f8f0771.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Mord im Theater</title>
+      <link>https://www.srf.ch/audio/maloney/mord-im-theater?id=AUDI20260705_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260705_NR_0004</guid>
+      <pubDate>Sun, 05 Jul 2026 09:10:00 GMT</pubDate>
+      <description>Frau Küng leitet ein kleines Theater, das in einer Bruchbude am Stadtrand untergebracht ist und nicht zu den Perlen der städtischen Kultur gehört. Einer der Darsteller wird in seiner Garderobe tot aufgefunden, was die drei Mäzene des Theaters aufschreckt und Frau Küng bewegt, Maloney zu engagieren.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1497</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260705_NR_0004_3f98c9110aad4050a026ebcd322225d0.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Das Erlebnishotel</title>
+      <link>https://www.srf.ch/audio/maloney/das-erlebnishotel?id=AUDI20260628_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260628_NR_0003</guid>
+      <pubDate>Sun, 28 Jun 2026 09:10:00 GMT</pubDate>
+      <description>Herr Durrer hat ein paar Nächte in einem Hotel verbracht, das speziell für Leute mit Flugangst konzipiert wurde. Die Zimmer bieten die Geräuschkulisse und die Gerüche fremder Länder und Städte. Durrer wurde in dem Hotel beraubt und Maloney soll ihm eine wertvolle Armbanduhr wieder besorgen.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1412</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260628_NR_0003_26004e3752da411988c9c558eac29d40.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Paranoia</title>
+      <link>https://www.srf.ch/audio/maloney/paranoia?id=AUDI20260621_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260621_NR_0004</guid>
+      <pubDate>Sun, 21 Jun 2026 09:10:00 GMT</pubDate>
+      <description>Herr Ulrich musste mit Schrecken feststellen, dass eine Kamera auf seinen Gartensitzplatz gerichtet war, und Bilder der Kamera im Internet veröffentlicht wurden. Maloney findet rasch heraus, dass ein Nachbar lediglich seinen Parkplatz überwachen wollte.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1581</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260621_NR_0004_5c970ad474374b3a83c552682fc1014f.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Tod eines Architekten</title>
+      <link>https://www.srf.ch/audio/maloney/tod-eines-architekten?id=AUDI20260614_NR_0005</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260614_NR_0005</guid>
+      <pubDate>Sun, 14 Jun 2026 09:10:00 GMT</pubDate>
+      <description>Der Architekt Trotta ist von einem Ziegelstein erschlagen worden. Die Polizei geht von einem tragischen Unfall aus. Trottas Frau aber vermutet, dass Roland Richter, ein wenig bekannter Rivale ihres Mannes, den Architekten ermordet hat.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1272</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260614_NR_0005_f5a0c611cc8e451ea4296a403852024f.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Politesse</title>
+      <link>https://www.srf.ch/audio/maloney/die-politesse?id=AUDI20260607_NR_0005</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260607_NR_0005</guid>
+      <pubDate>Sun, 07 Jun 2026 09:10:00 GMT</pubDate>
+      <description>Herr Auer möchte dass Maloney seine Schwester findet. Sie ist psychisch angeschlagen und lebt in einer Scheinwelt, in der sie sich immer neue Berufe zulegt. Diesmal soll sie in einer Uniform unterwegs sein.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1669</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/06/Maloney_radio_AUDI20260607_NR_0005_482589c2fdc14c49b6dcd6feff0316a9.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Eine seltsame Erpressung</title>
+      <link>https://www.srf.ch/audio/maloney/eine-seltsame-erpressung?id=AUDI20260531_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260531_NR_0001</guid>
+      <pubDate>Sun, 31 May 2026 09:10:00 GMT</pubDate>
+      <description>Die Firma Nüssli produziert Proteinriegel für Sportler. Jemand erpresst die Firma und droht damit, Riegel zu vergiften. Maloney soll herausfinden, wer dahinter steckt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1454</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260531_NR_0001_e0068745e9334571b563814d5579a43a.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Alters-WG</title>
+      <link>https://www.srf.ch/audio/maloney/die-alters-wg?id=AUDI20260524_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260524_NR_0001</guid>
+      <pubDate>Sun, 24 May 2026 09:10:00 GMT</pubDate>
+      <description>Frau Hösli lebt in einer Alters-WG, einem Pilotprojekt der Stadt, das allerdings ein wenig aus dem Ruder gelaufen ist. Von den ursprünglich sechs Bewohnern sind nur noch zwei am Leben und diese beschuldigen sich gegenseitig des Mordes.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1368</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260524_NR_0001_13fe08e95e6d44d197a008592d1768cd.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Vision</title>
+      <link>https://www.srf.ch/audio/maloney/die-vision?id=AUDI20260517_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260517_NR_0001</guid>
+      <pubDate>Sun, 17 May 2026 09:10:00 GMT</pubDate>
+      <description>Eine Hellseherin hat bei einem Spaziergang eine Vision. Sie sieht, wie eine junge Frau erdrosselt wird. Die Tote soll eine auffällige Brandnarbe im Gesicht gehabt haben.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1482</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260517_NR_0001_8ff0a9263ede4d858e7a0e85fc1cc493.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Raubüberfall</title>
+      <link>https://www.srf.ch/audio/maloney/der-raubueberfall?id=AUDI20260510_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260510_NR_0001</guid>
+      <pubDate>Sun, 10 May 2026 09:10:00 GMT</pubDate>
+      <description>Laurenz Rolli möchte, dass der Mord an seinem Vater nicht ungesühnt bleibt. Dieser kam bei einem Raubüberfall auf dessen Ladengeschäft ums Leben. Der Täter erbeutete lediglich 200 Franken, und die Polizei tappt bei ihren Ermittlungen im Dunkeln.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1340</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260510_NR_0001_b07a1353c38d4a4eade197865fcc536c.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Spätvorstellung</title>
+      <link>https://www.srf.ch/audio/maloney/die-spaetvorstellung?id=AUDI20260503_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260503_NR_0001</guid>
+      <pubDate>Sun, 03 May 2026 09:10:00 GMT</pubDate>
+      <description>Frau Fleckmeier befürchtet, dass ihr Sohn, seines Zeichens Chef eines Spielwarenkonzerns, die Nachmittage mit einer Geliebten verplempert, anstatt sich um die Umsatzzahlen seiner Firma zu kümmern.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1309</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260503_NR_0001_2ba382572e9a4b2393e8472021e0da00.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Zerstörtes Glück</title>
+      <link>https://www.srf.ch/audio/maloney/zerstoertes-glueck?id=AUDI20260426_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260426_NR_0001</guid>
+      <pubDate>Sun, 26 Apr 2026 09:10:00 GMT</pubDate>
+      <description>Michael war der Freund von Maloneys neuer Klientin. Er hat sich angeblich umgebracht. Maloney soll herausfinden, ob dem tatsächlich so war. Maloney erfährt bei der Polizei, dass nichts auf Fremdeinwirkung hinweist und dass Michael wegen einer Messerstecherei zwei Jahre im Gefängnis sass.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1586</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/04/Maloney_radio_AUDI20260426_NR_0001_d6a2add7e6864f2b81528a8e140fb706.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Elsterverein</title>
+      <link>https://www.srf.ch/audio/maloney/der-elsterverein?id=AUDI20260419_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260419_NR_0002</guid>
+      <pubDate>Sun, 19 Apr 2026 09:10:00 GMT</pubDate>
+      <description>Maloney erhält eine Einladung des Elstervereins, um deren Mitglieder aus seinem Berufsalltag zu erzählen. Aus dem gemütlichen Nachmittag wird schon bald ein neuer Mordfall für Maloney.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1464</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260419_NR_0002_4c9b6ea51c21443f8d6c0aa2732f74e4.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Billi the Kid</title>
+      <link>https://www.srf.ch/audio/maloney/billi-the-kid?id=AUDI20260412_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260412_NR_0001</guid>
+      <pubDate>Sun, 12 Apr 2026 09:10:00 GMT</pubDate>
+      <description>Frau Brun ist die Produzentin eines Musicals, das im Wilden Westen spielt. Der junge Hauptdarsteller ist spurlos verschwunden und Maloney soll den Mimen aufstöbern.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1328</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260412_NR_0001_13153cfb9efa46db84508d1c00dd13d4.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Heiratsschwindler</title>
+      <link>https://www.srf.ch/audio/maloney/der-heiratsschwindler?id=AUDI20260405_NR_0001</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260405_NR_0001</guid>
+      <pubDate>Sun, 05 Apr 2026 09:10:00 GMT</pubDate>
+      <description>Herr Mock glaubt, dass seine Tochter einem Heiratsschwindler auf den Leim gekrochen ist. Er möchte, dass Maloney dafür Beweise liefert. Mocks Frau glaubt nicht, dass ihr Schwiegersohn ein Betrüger ist und auch bei der Polizei liegt nichts gegen ihn vor.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1248</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/03/Maloney_radio_AUDI20260405_NR_0001_b57eb0a4b5224ac39c400be81073557f.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Tante-Emma-Laden</title>
+      <link>https://www.srf.ch/audio/maloney/der-tante-emma-laden?id=AUDI20260329_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260329_NR_0003</guid>
+      <pubDate>Sun, 29 Mar 2026 09:10:00 GMT</pubDate>
+      <description>Im kleinen Laden von Emma Good arbeitet eine Aushilfe. Frau Good verdächtigt die junge Frau, Geld aus der Kasse zu stehlen. Maloney soll die Frau überwachen. Bald schon stellt er erstaunt fest, dass in dem Laden seltsame Dinge geschehen, die junge Frau aber unverdächtig erscheint.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1473</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260329_NR_0003_6ffb6699bc7f4cebba94513fae929e1f.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Postraub</title>
+      <link>https://www.srf.ch/audio/maloney/der-postraub?id=AUDI20260322_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260322_NR_0004</guid>
+      <pubDate>Sun, 22 Mar 2026 10:10:00 GMT</pubDate>
+      <description>Frau Lüscher befürchtet, dass ihre Tochter in einen spektakulären Postraub verwickelt ist. Maloney soll herausfinden, ob das tatsächlich der Fall ist und wie sehr die Tochter bereits in kriminelle Machenschaften verstrickt ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1422</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260322_NR_0004_266e7b1f790648ce8cb8dbf8cfaf2295.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Ein Funken Verstand</title>
+      <link>https://www.srf.ch/audio/maloney/ein-funken-verstand?id=AUDI20260315_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260315_NR_0004</guid>
+      <pubDate>Sun, 15 Mar 2026 10:10:00 GMT</pubDate>
+      <description>Der Bruder von Maloneys neuer Klientin ist seit einer Woche unauffindbar. Er ist ein typischer Nerd, der sein Leben am Computer verbringt und Mühe im Umgang mit anderen Menschen hat. Erstaunlicherweise hat er eine Freundin.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1600</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260315_NR_0004_c28024b2b5f149cca7caf7f01446797d.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Tödliches Spiel</title>
+      <link>https://www.srf.ch/audio/maloney/toedliches-spiel?id=AUDI20260308_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260308_NR_0004</guid>
+      <pubDate>Sun, 08 Mar 2026 10:10:00 GMT</pubDate>
+      <description>Die Firma lifegame veranstaltet für reiche und gelangweilte Kunden ein Spiel, bei dem ein Killer auf die Kandidaten angesetzt wird. Herr Stadelmann ist einer der Mitspieler. Er kommt zu Maloney, als er erfährt, dass zwei andere Mitspieler erschossen wurden.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1422</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260308_NR_0004_f1444e357eb54f07bc2f8da1157ee682.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der verschwundene Nachbar</title>
+      <link>https://www.srf.ch/audio/maloney/der-verschwundene-nachbar?id=AUDI20260301_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260301_NR_0004</guid>
+      <pubDate>Sun, 01 Mar 2026 10:10:00 GMT</pubDate>
+      <description>Herr Zeiler leidet an unterschiedlichen Phobien, die ihn daran hindern nach einem verschwundenen Nachbarn zu suchen. Maloney soll ihm deshalb zur Seite stehen.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1593</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/02/Maloney_radio_AUDI20260301_NR_0004_f13260fd8bbe4d238f90240ad32827a2.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der schöne Fuss</title>
+      <link>https://www.srf.ch/audio/maloney/der-schoene-fuss?id=AUDI20260222_NR_0005</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260222_NR_0005</guid>
+      <pubDate>Sun, 22 Feb 2026 10:10:00 GMT</pubDate>
+      <description>Herr Tauber steht unter Mordverdacht, weil in einem seiner Abfallsäcke ein Fuss gefunden wird. Erschwerend kommt hinzu, dass Tauber seit längerem dafür berüchtigt ist, ein Fussfetischist zu sein.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1272</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260222_NR_0005_6e08a6cde4114e59b22e9b956e9bec06.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Mann am Fenster</title>
+      <link>https://www.srf.ch/audio/maloney/der-mann-am-fenster?id=AUDI20260215_NR_0005</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260215_NR_0005</guid>
+      <pubDate>Sun, 15 Feb 2026 10:10:00 GMT</pubDate>
+      <description>Der Bruder von Herr Camenzind hat sich angeblich aus dem Fenster eines Hochhauses in den Tod gestürzt. Camenzind glaubt aber, dass er von dessen Erzfeind ermordet wurde.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1449</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260215_NR_0005_52749b659f394401a46eaaf49bf365ad.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Hilferuf</title>
+      <link>https://www.srf.ch/audio/maloney/der-hilferuf?id=AUDI20260208_NR_0007</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260208_NR_0007</guid>
+      <pubDate>Sun, 08 Feb 2026 10:10:00 GMT</pubDate>
+      <description>Maloneys Klientin hat eine Textmitteilung erhalten, in der ein Patrick behauptet, in einem Keller in Grünwil gefangen gehalten zu werden. Die Polizei kam nach eigenen Abklärungen zum Schluss, dass es sich ziemlich sicher um einen üblen Scherz handelt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1671</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260208_NR_0007_7a7a8842714a44438028e709251197cd.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der falsche Hund</title>
+      <link>https://www.srf.ch/audio/maloney/der-falsche-hund?id=AUDI20260201_NR_0060</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260201_NR_0060</guid>
+      <pubDate>Sun, 01 Feb 2026 10:10:00 GMT</pubDate>
+      <description>Eine junge Frau erscheint mit einem Dackel in Maloneys Büro und behauptet, dass ihr eigener Hund in einem Park durch ein äusserlich identisches, charakterlich aber total verschiedenes Exemplar, ersetzt worden ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1284</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2026/01/Maloney_radio_AUDI20260201_NR_0060_ea97bbd019da43659ddfca20533fc897.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Eiseskälte</title>
+      <link>https://www.srf.ch/audio/maloney/eiseskaelte?id=AUDI20260125_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260125_NR_0002</guid>
+      <pubDate>Sun, 25 Jan 2026 10:10:00 GMT</pubDate>
+      <description>Herr Reichert hat sich ein kleines Haus gekauft, das mitten in einem Wald liegt. Da es immer wieder zu Vandalenakten kam, hat er eine Webkamera installiert, um jederzeit sehen zu können, was um das Haus herum vor sich geht. Doch die Kamera liefert seit Tagen keine Bilder.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1635</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260125_NR_0002_8cf85dd940be4ec4ace831b9e3a59918.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die lieben Nachbarn</title>
+      <link>https://www.srf.ch/audio/maloney/die-lieben-nachbarn?id=AUDI20260118_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260118_NR_0002</guid>
+      <pubDate>Sun, 18 Jan 2026 10:10:00 GMT</pubDate>
+      <description>In der Waschküche eines Mietshauses wird eine Frau tot aufgefunden. Die Polizei geht von einem Unfall aus, die lieben Nachbarn beschuldigen sich jedoch gegenseitig des Mordes.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1152</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260118_NR_0002_bdf944a55200473185ea00c3cad15faf.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Schneemann</title>
+      <link>https://www.srf.ch/audio/maloney/der-schneemann?id=AUDI20260111_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260111_NR_0002</guid>
+      <pubDate>Sun, 11 Jan 2026 10:10:00 GMT</pubDate>
+      <description>Die Familie Fuhrer entdeckt im Vorgarten ihres Hauses einen Schneemann. Herr Fuhrer wird bei dem Anblick kreidebleich und Frau Fuhrer erinnert sich an einen Freund, der vor einem Jahr ebenfalls einen Schneemann im Garten vorfand, und Tage später von einem Auto überfahren wurde.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1234</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260111_NR_0002_4b31c46454094a12b145d1f9ed1671bf.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Millenniumsleiche</title>
+      <link>https://www.srf.ch/audio/maloney/die-millenniumsleiche?id=AUDI20260104_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20260104_NR_0002</guid>
+      <pubDate>Sun, 04 Jan 2026 10:10:00 GMT</pubDate>
+      <description>Frau Langer vermisst ihren Bruder, mit dem sie eine grosse Silvesterparty plante. Er meldet sich nicht auf ihre Anrufe und öffnet auch nicht, wenn sie an seiner Tür klingelt. Maloney soll nach dem Rechten sehen.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1261</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20260104_NR_0002_18637542f24e40b8ae90dd023674fcaa.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Im Schneckentempo</title>
+      <link>https://www.srf.ch/audio/maloney/im-schneckentempo?id=AUDI20251228_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251228_NR_0003</guid>
+      <pubDate>Sun, 28 Dec 2025 10:10:00 GMT</pubDate>
+      <description>Frau Ristic wurde eine Kette und eine Schnecke gestohlen. Letztere sollte am Grünwiler Schneckenrennen für Furore sorgen. Sie verdächtigt ihre Mitkonkurrenten die Schnecke entführt zu haben.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1705</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251228_NR_0003_e6de1b25ec264ed4ba35ecb12498dc08.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Oh Tannenbaum</title>
+      <link>https://www.srf.ch/audio/maloney/oh-tannenbaum?id=AUDI20251221_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251221_NR_0003</guid>
+      <pubDate>Sun, 21 Dec 2025 10:10:00 GMT</pubDate>
+      <description>Die Familie Paretti möchte zusammen die Weihnachtstage verbringen. Zoe Parkinson, geborene Paretti, reist aus Australien an. Ihre Eltern glauben, dass Zoe auf dem fünften Kontinent ein berühmter Filmstar ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1653</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251221_NR_0003_760accf915db48998bb37974d7a8921e.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Das Kaffeekränzchen</title>
+      <link>https://www.srf.ch/audio/maloney/das-kaffeekraenzchen?id=AUDI20251214_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251214_NR_0003</guid>
+      <pubDate>Sun, 14 Dec 2025 10:10:00 GMT</pubDate>
+      <description>Der in der Schweiz lebende österreichische Geschäftsmann Karl Prohaska verschwindet spurlos. Seine Frau befürchtet, dass ihr Mann bei einem riskanten Geschäft mit Leuten aus dem Ostblock zu Schaden gekommen ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1459</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251214_NR_0003_a4b713ab7b0a4798be3814cf3412d7dd.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Aus heiterem Himmel</title>
+      <link>https://www.srf.ch/audio/maloney/aus-heiterem-himmel?id=AUDI20251207_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251207_NR_0003</guid>
+      <pubDate>Sun, 07 Dec 2025 10:10:00 GMT</pubDate>
+      <description>Der bekannte Leiter einer Werbeagentur kommt zu Maloney, weil ein Geschäftspartner, dem er seine Agentur verkaufen wollte, entführt worden ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1367</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/12/Maloney_radio_AUDI20251207_NR_0003_612554eaf43e4abdacd8bf927947f55b.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Balkonmörder</title>
+      <link>https://www.srf.ch/audio/maloney/der-balkonmoerder?id=AUDI20251130_NR_0006</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251130_NR_0006</guid>
+      <pubDate>Sun, 30 Nov 2025 10:10:00 GMT</pubDate>
+      <description>Maloneys neue Klientin glaubt, dass ihr Ex-Mann auf sie geschossen hat, als sie auf dem Balkon ihrer Wohnung stand. Da weder Projektile gefunden wurden und es auch keine Zeugen der Tat gibt, möchte sie, dass Maloney Druck auf ihren Ex-Mann ausübt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1642</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251130_NR_0006_a8b4ff1f9cec4282a14dd79eb97632f8.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Sprengmeister</title>
+      <link>https://www.srf.ch/audio/maloney/die-sprengmeister?id=AUDI20251123_NR_0005</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251123_NR_0005</guid>
+      <pubDate>Sun, 23 Nov 2025 10:10:00 GMT</pubDate>
+      <description>Der Sprengmeister Josef Steiner wird tot in seiner Wohnung aufgefunden. Die Polizei geht von einem Unfall aus. Steiner hatte Herzprobleme und  seine Verletzungen könnten von einem Sturz herrühren. 
+Sein Freund, der Sprengmeister  Walter Willi glaubt jedoch nicht an einen Unfall.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1307</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/11/Maloney_radio_AUDI20251123_NR_0005_5b80f17a3712442c9fb5160e36297de8.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Gesundheit</title>
+      <link>https://www.srf.ch/audio/maloney/gesundheit?id=AUDI20251116_NR_0007</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251116_NR_0007</guid>
+      <pubDate>Sun, 16 Nov 2025 10:10:00 GMT</pubDate>
+      <description>Ignaz Fölmi schrieb Bestseller über das Thema Gesundheit. Er behauptete, dass man allein mit einer gesunden Lebensweise bis ins hohe Alter gesund bleibt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1781</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251116_NR_0007_0c5487fcada14d2085aa8eb2ddb2d1b5.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Vorleser</title>
+      <link>https://www.srf.ch/audio/maloney/der-vorleser?id=AUDI20251109_NR_0025</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251109_NR_0025</guid>
+      <pubDate>Sun, 09 Nov 2025 10:10:00 GMT</pubDate>
+      <description>Niklaus Zinsli bestreitet seinen Lebensunterhalt damit, dass er älteren Damen erotische Passagen aus Romanen vorliest. Zwei der Damen kommen unter mysteriösen Umständen ums Leben und Zinsli befürchtet, dass die Polizei ihn verdächtigen könnte.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1210</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251109_NR_0025_d3d85c1c8a85497b857e095d4d785fc6.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Mann im Hotel</title>
+      <link>https://www.srf.ch/audio/maloney/der-mann-im-hotel?id=AUDI20251102_NR_0022</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251102_NR_0022</guid>
+      <pubDate>Sun, 02 Nov 2025 10:10:00 GMT</pubDate>
+      <description>Ein Mann, der sich an nichts mehr erinnern kann, bittet Maloney um Hilfe. Der Mann lebt in einem Hotel, hat eine Tasche voll Geld bei sich und befürchtet, ein Verbrecher zu sein.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1316</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251102_NR_0022_2dc436d264594ea586ac0c4015af82e4.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die perfekte Mischung</title>
+      <link>https://www.srf.ch/audio/maloney/die-perfekte-mischung?id=AUDI20251026_NR_0005</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251026_NR_0005</guid>
+      <pubDate>Sun, 26 Oct 2025 10:10:00 GMT</pubDate>
+      <description>Die Schwester von Maloneys Klientin gilt als Tatverdächtige im Mordfall am Türsteher Moussa Toure. Dieser hatte kurz vor der Tat ihre Beziehung beendet. Sie jedoch glaubt, dass der Türsteher von einem abgewiesenen Gast ermordet wurde.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1533</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251026_NR_0005_a842c43d33f3406994699217fc1e07b6.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Stimme</title>
+      <link>https://www.srf.ch/audio/maloney/die-stimme?id=AUDI20251019_NR_0007</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251019_NR_0007</guid>
+      <pubDate>Sun, 19 Oct 2025 09:10:00 GMT</pubDate>
+      <description>Maloneys Klient hört eine Stimme, wenn er Auto fährt. Sie gibt im Anweisungen und wenn er diese befolgt, landet er immer vor einem Nachtclub. Vor ein paar Wochen wurde vor dem Club eine Frau erschossen.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1335</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251019_NR_0007_b8c03e36e4244d45927cf6a01bb4dc90.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Autodieb</title>
+      <link>https://www.srf.ch/audio/maloney/der-autodieb?id=AUDI20251012_NR_0046</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251012_NR_0046</guid>
+      <pubDate>Sun, 12 Oct 2025 09:10:00 GMT</pubDate>
+      <description>Der professionelle Autodieb Toni Brunner wird von der Polizei wegen Mordes gesucht. Im Kofferraum eines geklauten Autos entdeckte Brunner eine Leiche, die er auf einem Feldweg entsorgte.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1286</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251012_NR_0046_9d9584d0e8834f16824047efb931b65a.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die blaue Tasche</title>
+      <link>https://www.srf.ch/audio/maloney/die-blaue-tasche?id=AUDI20251005_NR_0028</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20251005_NR_0028</guid>
+      <pubDate>Sun, 05 Oct 2025 09:10:00 GMT</pubDate>
+      <description>Auf einem Kinderspielplatz erhält Maloney den Auftrag nach einer verschwundenen blauen Plastiktasche und einer Metallschatulle zu suchen. Sein Klient glaubt, dass der Dieb einer der Bewohner jenes Hauses ist, in dessen Hausflur er die Tasche kurz abgestellt hatte.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1371</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/10/Maloney_radio_AUDI20251005_NR_0028_460835be0fd44367b9a4a103484790bd.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Drohne</title>
+      <link>https://www.srf.ch/audio/maloney/die-drohne?id=AUDI20250928_NR_0003</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250928_NR_0003</guid>
+      <pubDate>Sun, 28 Sep 2025 09:10:00 GMT</pubDate>
+      <description>Claudio, der Ex-Freund von Maloneys Klientin ist spurlos verschwunden. Er hatte sich eine Drohne gekauft und wollte diese in Grünwil ausprobieren und Flugaufnahmen machen. Seither hat niemand mehr etwas von ihm gehört.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1743</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250928_NR_0003_6f2f030b82284eebb6495beb5dd9b632.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Tiefdruckgebiete</title>
+      <link>https://www.srf.ch/audio/maloney/tiefdruckgebiete?id=AUDI20250921_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250921_NR_0002</guid>
+      <pubDate>Sun, 21 Sep 2025 09:10:00 GMT</pubDate>
+      <description>Frau Ineichen vermisst ihren Mann, einen bekannten Hobbymeteorologen, der an einem Fachkongreß einen Vortrag halten sollte, aber seit Tagen wie vom Erdboden verschwunden ist.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1322</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250921_NR_0002_822e11824d1a4203a21172bc6db8ec9c.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Auf Messers Schneide</title>
+      <link>https://www.srf.ch/audio/maloney/auf-messers-schneide?id=AUDI20250914_NR_0002</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250914_NR_0002</guid>
+      <pubDate>Sun, 14 Sep 2025 09:10:00 GMT</pubDate>
+      <description>Maloneys neuer Klientin wurde bei einem Einbruch in ihre Wohnung ein antikes Messer gestohlen, das ursprünglich ihrem Urgrossvater gehört hatte. Maloney findet heraus, dass im Umfeld seiner Klientin im gleichen Zeitraum bei mehreren Personen eingebrochen wurde.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1473</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250914_NR_0002_730c64e2f0d1439c90176853b0281e55.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Das Skelett</title>
+      <link>https://www.srf.ch/audio/maloney/das-skelett?id=AUDI20250907_NR_0004</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250907_NR_0004</guid>
+      <pubDate>Sun, 07 Sep 2025 09:10:00 GMT</pubDate>
+      <description>Frau Pfosi befürchtet, dass ihr Mann ein Verhältnis mit einer anderen Frau hat. Ihr Mann wollte sich für ein Wochenende in eine Berghütte zurückziehen, doch aus dem Wochenende wurde zuerst eine und dann eine weitere Woche. Maloney steigt auf den Berg und macht eine überraschende Entdeckung.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1353</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250907_NR_0004_515822e2ff844e419fe1cc1c7ca08c3c.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Die Bedrohung</title>
+      <link>https://www.srf.ch/audio/maloney/die-bedrohung?id=AUDI20250831_NR_0006</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250831_NR_0006</guid>
+      <pubDate>Sun, 31 Aug 2025 09:10:00 GMT</pubDate>
+      <description>Der Anwalt Dr. Hobel geniesst seinen schlechten Ruf und die guten Honorare, bis er eines Tages eine Tonbandkassette erhält, auf der ihm jemand seinen baldigen Tod ankündigt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1338</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250831_NR_0006_b07bf7c32ba14a729c5bd478fd152529.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Süsse Geheimnisse</title>
+      <link>https://www.srf.ch/audio/maloney/suesse-geheimnisse?id=AUDI20250824_NR_0006</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250824_NR_0006</guid>
+      <pubDate>Sun, 24 Aug 2025 09:10:00 GMT</pubDate>
+      <description>Frau Ziegler vermutet, dass ihr Freund ermordet wurde. Er ist seit zwei Tagen spurlos verschwunden. Sein Geschäftspartner glaubt, dass er eine Affäre mit einer anderen Frau hat, während die Mutter des Verschwundenen annimmt, dass ihr Sohn von einem UFO entführt wurde.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1106</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250824_NR_0006_816a4176c5604738a966eefb2f28dfd1.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Der Schlüssel zum Erfolg</title>
+      <link>https://www.srf.ch/audio/maloney/der-schluessel-zum-erfolg?id=AUDI20250817_NR_0007</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250817_NR_0007</guid>
+      <pubDate>Sun, 17 Aug 2025 09:10:00 GMT</pubDate>
+      <description>Herr Oehler ist Verwalter einer Grossüberbauung. Zwei Mieter beschwerten sich bei ihm, dass jemand in ihre Wohnung eingedrungen sei. Es wurde nichts gestohlen, aber die Vorfälle bringen Oehler in Bedrängnis.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1752</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/08/Maloney_radio_AUDI20250817_NR_0007_29c4889c0ff5470f99565983646b89b7.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Tote Liebe</title>
+      <link>https://www.srf.ch/audio/maloney/tote-liebe?id=AUDI20250810_NR_0016</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250810_NR_0016</guid>
+      <pubDate>Sun, 10 Aug 2025 09:10:00 GMT</pubDate>
+      <description>Maloneys Klientin kann nicht verstehen, dass sich ihr Freund Oliver mit einer schlichten SMS von ihr getrennt hat und eine Aussprache verweigert. Sie vermutet, dass ihr Vater den Freund eingeschüchtert hat. Doch dem scheint es egal zu sein, mit wem sich seine Tochter vergnügt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1377</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/07/Maloney_radio_AUDI20250810_NR_0016_4d464085b19544ec9b8cd25193bc707c.mp3" length="0" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Das Feuerwerk</title>
+      <link>https://www.srf.ch/audio/maloney/das-feuerwerk?id=AUDI20250803_NR_0020</link>
+      <guid isPermaLink="false">urn:srf:audio:AUDI20250803_NR_0020</guid>
+      <pubDate>Sun, 03 Aug 2025 09:10:00 GMT</pubDate>
+      <description>Am Schweizer Nationalfeiertag herrscht in der Wohnsiedlung Talgrund Wettkampfstimmung. Die Nachbarn versuchen sich gegenseitig in Sachen Feuerwerk und Grillfest zu überbieten. Ein Sozialarbeiter möchte zudem einen notorischen Brandstifter heilen, indem er ihm ein Höhenfeuer zeigt.</description>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://irwitzer.github.io/PhilipMaloney-feed/podcast-cover.png" />
+      <itunes:duration>1667</itunes:duration>
+      <enclosure url="https://download-media.srf.ch/world/audio/Maloney_radio/2025/07/Maloney_radio_AUDI20250803_NR_0020_ebe8f9545b8d4031adc9e7faa6f06313.mp3" length="0" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
