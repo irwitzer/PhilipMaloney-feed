@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080706">
+  <meta name="description" content="Inoffizieller RSS-Feed für das Krimi-Hörspiel Philip Maloney von SRF.">
+  <title>Philip Maloney Feed</title>
+  <link rel="alternate" type="application/rss+xml" title="Philip Maloney Feed" href="feed.xml">
+  <link rel="icon" href="podcast-cover.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="#top" aria-label="Philip Maloney Feed – Startseite">
+        <span class="brand-monogram" aria-hidden="true">
+          <span class="brand-p">P</span>
+          <span class="brand-m">M</span>
+        </span>
+        <span class="brand-title">
+          <span>Philip</span>
+          <span>Maloney</span>
+          <span>Feed</span>
+        </span>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <a href="#warum">Über den Feed</a>
+        <a href="#episoden">Episoden</a>
+        <a href="#abonnieren">Abonnieren</a>
+        <a href="https://github.com/irwitzer/PhilipMaloney-feed">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="case-label"><span></span><b>Fallakte</b><span></span></div>
+
+          <h1>
+            <span>Philip</span>
+            <span>Maloney</span>
+            <strong>Feed</strong>
+          </h1>
+
+          <p class="hero-subtitle">
+            Inoffizieller RSS-Feed für das Krimi-Hörspiel von SRF.
+          </p>
+
+          <div class="disclaimer" role="note">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3 2.5 20h19L12 3Zm0 5.2v6.1m0 3.1h.01"/>
+            </svg>
+            <p>
+              Dieses Projekt ist ein inoffizielles Fanprojekt und steht in
+              keiner offiziellen Verbindung zu SRF.
+            </p>
+          </div>
+
+          <div class="hero-actions" id="abonnieren">
+            <a class="button button-primary" id="subscribe-button" href="feed.xml">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 18.5h.01M5 12a7 7 0 0 1 7 7M5 6a13 13 0 0 1 13 13"/>
+              </svg>
+              Feed abonnieren
+            </a>
+
+            <a class="button" href="https://github.com/irwitzer/PhilipMaloney-feed">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.5 9.5 0 0 1 12 6.83a9.5 9.5 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/>
+              </svg>
+              Auf GitHub ansehen
+            </a>
+          </div>
+
+          <div class="feed-address">
+            <svg class="feed-symbol" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 18.5h.01M5 12a7 7 0 0 1 7 7M5 6a13 13 0 0 1 13 13"/>
+            </svg>
+            <div>
+              <small>Feed-URL</small>
+              <code id="feed-url">https://irwitzer.github.io/PhilipMaloney-feed/feed.xml</code>
+            </div>
+            <button type="button" id="copy-feed" aria-label="Feed-URL kopieren">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 8h10v12H9zM5 4h10v4M5 4v12h4"/>
+              </svg>
+              Kopieren
+            </button>
+          </div>
+
+          <p class="copy-status" id="copy-status" aria-live="polite"></p>
+        </div>
+
+        <div class="hero-art" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="stats-section" aria-label="Feed-Eigenschaften">
+      <div class="shell stat-grid">
+        <article class="stat-card">
+          <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="8" y="12" width="48" height="38" rx="3"/>
+            <path d="M14 18h36v15H14z"/>
+            <circle cx="23" cy="25.5" r="5"/>
+            <circle cx="41" cy="25.5" r="5"/>
+            <path d="M18 43h28l-4-7H22l-4 7Z"/>
+          </svg>
+          <strong id="episode-count">–</strong>
+          <h2>Aktuelle Episoden</h2>
+          <p>Alle derzeit verfügbaren Folgen des Philip-Maloney-Hörspiels.</p>
+        </article>
+
+        <article class="stat-card">
+          <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M52 22A22 22 0 1 0 54 38"/>
+            <path d="M52 10v13H39"/>
+          </svg>
+          <h2>Tägliche Aktualisierung</h2>
+          <p>Der Feed wird automatisch geprüft und bei neuen Folgen erweitert.</p>
+        </article>
+
+        <article class="stat-card">
+          <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M10 36v-5a22 22 0 0 1 44 0v5"/>
+            <path d="M10 36v12c0 4 3 7 7 7h5V34h-5c-4 0-7 3-7 7m44-5v12c0 4-3 7-7 7h-5V34h5c4 0 7 3 7 7"/>
+          </svg>
+          <h2>Direkte MP3-Links</h2>
+          <p>Direkte Links zu den öffentlich erreichbaren SRF-Audiodateien.</p>
+        </article>
+
+        <article class="stat-card">
+          <svg class="feature-icon github-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M32 7a25 25 0 0 0-8 48.7v-6.1c-6 1.3-7.3-2.5-7.3-2.5-1-2.5-2.4-3.2-2.4-3.2-2-1.3.1-1.3.1-1.3 2.2.2 3.3 2.3 3.3 2.3 1.9 3.3 5.1 2.4 6.3 1.8.2-1.4.8-2.4 1.5-3-4.8-.6-9.9-2.4-9.9-10.7 0-2.4.9-4.3 2.3-5.8-.2-.6-1-2.8.2-5.7 0 0 1.9-.6 6.1 2.2A21 21 0 0 1 32 23a21 21 0 0 1 5.8.8c4.2-2.8 6.1-2.2 6.1-2.2 1.2 2.9.4 5.1.2 5.7 1.4 1.5 2.3 3.4 2.3 5.8 0 8.3-5.1 10.1-10 10.7 1 .8 1.8 2.4 1.8 4.7v7.2A25 25 0 0 0 32 7Z"/>
+          </svg>
+          <h2>GitHub Pages</h2>
+          <p>Offen, transparent und zuverlässig über GitHub Pages bereitgestellt.</p>
+        </article>
+
+        <article class="stat-card">
+          <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M32 6 53 14v16c0 13-8 22-21 28C19 52 11 43 11 30V14L32 6Z"/>
+            <path d="m21 31 7 7 15-17"/>
+          </svg>
+          <h2>Automatische Validierung</h2>
+          <p>Jeder neue Feed wird vor der Veröffentlichung technisch geprüft.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-section" id="warum">
+      <div class="shell">
+        <div class="section-heading">
+          <span></span>
+          <h2>So funktioniert es</h2>
+          <span></span>
+        </div>
+
+        <div class="steps">
+          <article>
+            <b>1</b>
+            <svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M32 18 20 56h24L32 18Z"/>
+              <path d="M24 43h16M27 34h10"/>
+              <path d="M19 25a18 18 0 0 1 0-18M45 25a18 18 0 0 0 0-18"/>
+              <path d="M13 30A26 26 0 0 1 13 2M51 30A26 26 0 0 0 51 2"/>
+              <circle cx="32" cy="12" r="3"/>
+            </svg>
+            <h3>Öffentliche SRF-Ressourcen</h3>
+            <p>
+              Der Feed verlinkt ausschließlich auf öffentlich erreichbare
+              Audioressourcen von SRF. Es werden keine Audiodateien gespeichert.
+            </p>
+          </article>
+
+          <article>
+            <b>2</b>
+            <svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M39 8h8l2 6 6 2v8l-6 2-2 6h-8l-2-6-6-2v-8l6-2 2-6Z"/>
+              <circle cx="43" cy="20" r="6"/>
+              <path d="M13 31h7l2 5 5 2v7l-5 2-2 5h-7l-2-5-5-2v-7l5-2 2-5Z"/>
+              <circle cx="16.5" cy="41.5" r="5"/>
+            </svg>
+            <h3>Automatisch aktualisiert</h3>
+            <p>
+              Ein täglicher GitHub-Workflow prüft die aktuellen Episoden,
+              ergänzt neue Folgen und entfernt nicht mehr verfügbare Einträge.
+            </p>
+          </article>
+
+          <article>
+            <b>3</b>
+            <svg class="step-icon" viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="28" r="6"/>
+              <path d="M21 31a12 12 0 1 1 22 0M14 34a20 20 0 1 1 36 0"/>
+              <path d="M27 37h10l-2 19h-6l-2-19Z"/>
+            </svg>
+            <h3>In deiner Podcast-App</h3>
+            <p>
+              Kopiere die Feed-Adresse in deine bevorzugte Podcast-App oder
+              einen RSS-Reader und höre die Folgen bequem dort.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="episodes-section" id="episoden">
+      <div class="shell">
+        <div class="episodes-header">
+          <div>
+            <p class="eyebrow">Neu im Feed</p>
+            <h2>Aktuelle Fälle</h2>
+          </div>
+          <a href="feed.xml">Alle Episoden im XML-Feed</a>
+        </div>
+
+        <div class="episode-grid" id="latest-episodes" aria-live="polite">
+          <article class="episode-card loading-card">
+            <p>Die neuesten Episoden werden geladen …</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="case-footer">
+    <div class="shell footer-panel">
+      <div class="footer-detective" aria-hidden="true">
+        <span class="hat"></span>
+        <span class="head"></span>
+        <span class="coat"></span>
+      </div>
+
+      <div class="footer-copy">
+        <strong>Hinweis zum inoffiziellen Feed</strong>
+        <p>
+          Alle Hörspielinhalte und Audiodateien stammen von SRF.
+          Dieser Feed verlinkt ausschließlich auf öffentlich erreichbare
+          SRF-Ressourcen.
+        </p>
+        <small>Inoffizielles Fanprojekt · Keine Verbindung zu SRF</small>
+      </div>
+
+      <svg class="footer-city" viewBox="0 0 420 130" aria-hidden="true">
+        <path d="M5 117h410M20 117V92h35v25M55 117V76h30v41M85 117V87h48v30M133 117V69h32v48M165 117V83h38v34M203 117V53h36v64M239 117V73h50v44M289 117V91h38v26M327 117V79h47v38M374 117V96h30v21"/>
+        <path d="M207 53h28l-14-25-14 25ZM218 28V10M205 95h32M216 68h10"/>
+        <path d="M129 69h40l-20-18-20 18ZM286 91h44l-22-17-22 17ZM50 92h40l-20-16-20 16Z"/>
+      </svg>
+    </div>
+  </footer>
+</body>
+</html>
