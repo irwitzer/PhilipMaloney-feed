@@ -45,11 +45,18 @@ def test_main_hero_actions_are_preserved() -> None:
     assert 'id="copy-feed"' in html
 
 
-def test_header_monogram_is_preserved() -> None:
+def test_header_monogram_is_preserved_and_not_clickable() -> None:
     html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    header = html.split('<header class="site-header">', maxsplit=1)[1].split(
+        "</header>",
+        maxsplit=1,
+    )[0]
 
-    assert "brand-monogram" in html
-    assert "brand-title" in html
+    assert "brand-monogram" in header
+    assert "brand-title" in header
+    assert '<div class="brand"' in header
+    assert '<a class="brand"' not in header
+    assert 'href="#top"' not in header
 
 
 def test_strong_mobile_scroll_reset_is_preserved() -> None:
@@ -71,12 +78,24 @@ def test_header_contains_only_the_brand() -> None:
         maxsplit=1,
     )[0]
 
-    assert '<a class="brand"' in header
+    assert 'class="brand"' in header
     assert "<nav" not in header
     assert "Über den Feed" not in header
     assert ">Episoden<" not in header
     assert ">Abonnieren<" not in header
     assert ">GitHub<" not in header
+
+
+def test_warning_icon_has_a_real_exclamation_mark() -> None:
+    html = (PUBLIC / "index.html").read_text(encoding="utf-8")
+    disclaimer = html.split('<div class="disclaimer" role="note">', maxsplit=1)[1].split(
+        "</div>",
+        maxsplit=1,
+    )[0]
+
+    assert '<path d="M12 3 2.5 20h19L12 3Z"/>' in disclaimer
+    assert '<path d="M12 8v6.2"/>' in disclaimer
+    assert '<circle cx="12" cy="17.2" r="1"' in disclaimer
 
 
 def test_feature_icon_pngs_exist_and_are_referenced() -> None:
