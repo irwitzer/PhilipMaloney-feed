@@ -1,4 +1,4 @@
-"""Tests für den wiederhergestellten und erhöhten Hero-Bereich."""
+"""Tests für getrennte Desktop- und Mobil-Hero-Assets."""
 
 from pathlib import Path
 
@@ -7,17 +7,33 @@ PUBLIC = PROJECT_ROOT / "public"
 
 
 def test_required_site_files_exist() -> None:
-    for name in ("index.html", "styles.css", "app.js", "hero-noir.png"):
+    for name in (
+        "index.html",
+        "styles.css",
+        "app.js",
+        "hero-noir.png",
+        "hero-noir-desktop.png",
+    ):
         assert (PUBLIC / name).is_file()
 
 
-def test_hero_is_full_width_and_taller() -> None:
+def test_desktop_uses_the_wide_hero_asset() -> None:
     css = (PUBLIC / "styles.css").read_text(encoding="utf-8")
 
-    assert 'url("hero-noir.png")' in css
-    assert "background-position: center 35%;" in css
-    assert "background-size: cover;" in css
-    assert css.count("min-height: 880px;") == 2
+    desktop_rule = css.split("@media (max-width: 1120px)", maxsplit=1)[0]
+
+    assert 'url("hero-noir-desktop.png")' in desktop_rule
+    assert "background-size: cover;" in desktop_rule
+    assert "min-height: 880px;" in desktop_rule
+
+
+def test_tablet_and_mobile_keep_the_existing_hero_asset() -> None:
+    css = (PUBLIC / "styles.css").read_text(encoding="utf-8")
+
+    responsive_rules = css.split("@media (max-width: 1120px)", maxsplit=1)[1]
+
+    assert responsive_rules.count('url("hero-noir.png")') >= 2
+    assert 'url("hero-noir-desktop.png")' not in responsive_rules
 
 
 def test_main_hero_actions_are_preserved() -> None:

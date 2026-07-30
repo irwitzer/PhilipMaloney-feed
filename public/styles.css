@@ -168,7 +168,7 @@ a {
       transparent 48%,
       rgba(0, 0, 0, 0.48) 100%
     ),
-    url("hero-noir.png");
+    url("hero-noir-desktop.png");
   background-repeat: no-repeat;
   background-position: center 35%;
   background-size: cover;
